@@ -1,0 +1,37 @@
+package changeSetMap;
+import java.util.Date;
+import java.util.HashMap;
+
+
+public class WorkItemFilesRecord {
+	private Date createdDate;
+	private Integer workItemId;
+	private HashMap <Integer, String> changeSetFiles = new HashMap <Integer, String>();
+	private String workItemType;
+
+	public void setWorkItemId(Integer wid) {
+		workItemId = wid;
+	}
+	public Integer getWorkItemId() {
+		return this.workItemId;
+	}
+	public void setRecordDate (Date date){
+		createdDate = date;
+	}
+	public Date getRecordDate() {
+		return this.createdDate;
+	}
+	public void addRecordFile (Integer id, String file){
+		changeSetFiles.put(id, file);
+	}
+    public HashMap <Integer, String> getRecordFiles() {
+    	return this.changeSetFiles;
+    }
+	public void setWorkItemType(String type) {
+		workItemType = new String(type);
+	}
+	public String getWorkItemType() {
+		return this.workItemType;
+	}
+
+}

@@ -1,0 +1,47 @@
+SUMMARY:
+Processed a total of:140 Defects
+of which:117 items without core links
+of which:70 items that were in Fixed state at some time
+Detected:12 bugs with Reverse transitions
+of which:4 had associated changesets
+of which: 3 had changesets associated after the reverse transition
+From all post-core-filter bugs there were: 34 Defects with changesets
+
+List of Defect ID's (that were fixed at some point in their lifecycle) without change sets:
+129318
+129519
+140760
+140943
+142096
+142506
+142508
+144851
+144854
+144865
+147144
+148279
+148508
+148871
+150027
+151478
+151685
+154048
+154312
+156078
+156794
+156991
+157152
+157406
+159725
+159732
+159888
+159890
+159891
+159894
+159933
+160220
+161136
+161214
+161396
+164231
+164311

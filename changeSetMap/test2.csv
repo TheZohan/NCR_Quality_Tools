@@ -1,0 +1,573 @@
+transaction_id,item_id,transaction_date,item_category,item_name,item_volume,item_price, workItem_id
+315895,14627859,07/01/2014,Bug,$/Coles/Main/Trunk/Office/Src/Reports/RDLC/SCOCoinReplenishmentReport.rdlc,1,0,180763
+318999,21792042,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/ReportingWarehouse/R10_Reports/OLAP_SegmentTrend.rdl,1,0,180617
+212255,8885076,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/INF.IntegratedServices/StoreNet.Environment/StoreNetApplicationCoreServices.cs,1,0,128275
+212255,8873060,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/BL.BusinessComponents/Tests/Retalix.StoreServer.BC.Item.UnitTest/SecurityScale/SecurityScaleWeightValidatorShould.cs,1,0,128275
+212255,8873059,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/BL.BusinessComponents/Tests/Retalix.StoreServer.BC.Item.UnitTest/SecurityScale/SecurityScaleWeightLearningHandlerShould.cs,1,0,128275
+212255,8891310,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Selling/SecurityScale/SecurityScaleWeightValidationShould.cs,1,0,128275
+212255,15024496,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/Model/Private/Selling/SecurityScale/ISecurityScaleParametersProvider.cs,1,0,128275
+212255,8885075,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/INF.IntegratedServices/StoreNet.Environment/StoreNet.Environment.csproj,1,0,128275
+212255,8889383,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/ServiceHost/Retalix.StoreServer.CoreConfiguration/CoreComponents/ConfigurationDiscriptor.cs,1,0,128275
+212255,15024441,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/BL.BusinessComponents/Selling/Legacy/SecurityScale/SecurityScaleParameters.cs,1,0,128275
+212255,8884303,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/Model/Private/Retalix.StoreServices.Model.Private.csproj,1,0,128275
+212255,8887054,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/Model/Private/Infrastructure/Legacy/Configuration/ISecurityScaleConfiguration.cs,1,0,128275
+212255,8885112,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/INF.IntegratedServices/StoreNet.Environment/Configuration/SecurityScaleConfiguration.cs,1,0,128275
+212255,8897420,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/DB/Scripts/Core/SqlServer/RunAlwaysAfter/SystemParameters.sql,1,0,128275
+212255,8868225,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/BL.BusinessComponents/Selling/Legacy/SecurityScale/SecurityScaleWeightLearningHandler.cs,1,0,128275
+212255,8879613,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/BL.BusinessServices/Tests/FrontEnd.Test/TouchPoint/TouchPointFullGetByComputerNameShould.cs,1,0,128275
+212255,8889374,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/ServiceHost/Retalix.StoreServer.CoreConfiguration/CoreComponents/BusinessComponents.cs,1,0,128275
+212255,8868226,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/BL.BusinessComponents/Selling/Legacy/SecurityScale/SecurityScaleWeightValidator.cs,1,0,128275
+212255,8868022,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/BL.BusinessComponents/Selling/Retalix.StoreServices.BusinessComponents.Selling.csproj,1,0,128275
+212255,8874871,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/TouchPoint/TouchPointFullGetByComputerName.cs,1,0,128275
+318893,1132044,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/ViewModels/PosKeyPadViewModel.cs,1,0,180742
+318893,19566671,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.ViewModels.Test/PosKeyPadViewModelShould.cs,1,0,180742
+320705,21810775,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Customer/CustomerTransformer.cs,1,0,180620
+320705,21810769,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Customer/CustomerBulkInsert.cs,1,0,180620
+320705,21806455,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/AccountType/CustomerAccountTypeContractToModelConvertor.cs,1,0,180620
+320705,21806521,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerSignup/CustomerSignupService.cs,1,0,180620
+320705,21806390,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/AccountBalanceUpdateExecutorBase.cs,1,0,180620
+320705,21797181,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/ResetPassword/CustomerResetPassword.cs,1,0,180620
+320705,21806391,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/AccountBalanceUpdateLoopingExecutor.cs,1,0,180620
+320705,21809433,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Tests/Retalix.CDM.BusinessServices.Test/CustomerMaintenanceShould.cs,1,0,180620
+320705,21810725,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/CustomerPaymentMeanDao.cs,1,0,180620
+320705,21797102,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/EmailVerification/LoyaltyProCardValidator.cs,1,0,180620
+320705,21810850,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/CustomerAccount/CustomerExistingAccountsQuery.cs,1,0,180620
+320705,21810849,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/Customer/BulkCustomerExistingQuery.cs,1,0,180620
+320705,21806392,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/CustomeGroupsContractToModel.cs,1,0,180620
+320705,21810848,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/Affilations/BulkGetAffilationsQuery.cs,1,0,180620
+320705,21796964,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/Contacts/ContactsCollection.cs,1,0,180620
+320705,21806393,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/CustomerGroupAccountBalanceUpdateService.cs,1,0,180620
+320705,22687315,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Customer/CustomerHouseHoldMergingAndSplitingcs.cs,1,0,180620
+320705,21806397,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerMerge/CustomerMerger.cs,1,0,180620
+320705,21810806,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Subscription/SubscriptionTransformer.cs,1,0,180620
+320705,21797042,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerAccountDtoConvertor.cs,1,0,180620
+320705,21797041,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/AccountTypeDtoConvertor.cs,1,0,180620
+320705,21797225,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/Wallet/CustomerWallet.cs,1,0,180620
+320705,21797047,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerSubscriptionDtoConvertor.cs,1,0,180620
+320705,21806374,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerAuthenticationTokenEmailSendService.cs,1,0,180620
+320705,21806511,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerPaymentMeanUpdate/CustomerPaymentMeanUpdateService.cs,1,0,180620
+320705,21797045,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerDtoConvertor.cs,1,0,180620
+320705,21797044,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerCreationTemplateDtoConvertor.cs,1,0,180620
+320705,21806379,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerSplitService.cs,1,0,180620
+320705,21797050,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/SubscriptionServiceDtoConvertor.cs,1,0,180620
+320705,21806496,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerMaintenance/CustomersContractToModel.cs,1,0,180620
+320705,21796913,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/AccessServices/Temp_4_2/SubscriptionServiceDtoParser.cs,1,0,180620
+320705,21806502,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerMaintenance/BackwardCompatibility/SubscriptionUpdater.cs,1,0,180620
+320705,22686956,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerPaymentMeanWithLTTlookup/CustomerPaymentMeanDetailsModelToContractMapper.cs,1,0,180620
+320705,21806380,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerUpdatePasswordService.cs,1,0,180620
+318887,3234073,07/06/2014,Bug,$/R10/Main/Trunk/Office/Src/Modules/Promotion/Web/Scripts/PromotionDetails/CriteriaBox/PromotionActiveDaysBoxPlugIn.js,1,0,180724
+321819,1131864,07/13/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/BRM/ActionViewModelBase.cs,1,0,180604
+321819,19566795,07/13/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.ViewModels.Test/BRMInputData/ActionViewModelBaseShould.cs,1,0,180604
+319252,21806390,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/AccountBalanceUpdateExecutorBase.cs,1,0,180620
+319252,21806391,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/AccountBalanceUpdateLoopingExecutor.cs,1,0,180620
+319252,21806393,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/CustomerGroupAccountBalanceUpdateService.cs,1,0,180620
+319252,21806397,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerMerge/CustomerMerger.cs,1,0,180620
+318632,19553097,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.Views.Test/Retalix.Client.POS.Presentation.Views.Test.csproj,1,0,180670
+318632,4666742,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.Views.Fuel/Views/ForecourtView.xaml,1,0,180670
+318632,1132274,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.Views/Retalix.Client.POS.Presentation.Views.csproj,1,0,180670
+318632,24009686,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.Views.Test/Converters/StringSourceToTranslatedUriConverterShould.cs,1,0,180670
+318632,24009684,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.Views/Converters/StringSourceToTranslatedUriConverter.cs,1,0,180670
+319114,3234071,07/07/2014,Bug,$/R10/Main/Trunk/Office/Src/Modules/Promotion/Web/Scripts/PromotionDetails/CriteriaBox/EntityConditionBoxPlugin.js,1,0,180766
+319114,1145157,07/07/2014,Bug,$/R10/Main/Trunk/Office/Src/Web/Scripts/retalix-jquery-helpers.js,1,0,180766
+318774,8919380,07/06/2014,Bug,$/R10/Main/Release/4.x/4.2/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.CashOffice/TillDeclaration.cs,1,0,180759
+318774,8870527,07/06/2014,Bug,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/BL.BusinessComponents/Finance/Declaration/DeclarationTransaction.cs,1,0,180759
+319384,21803426,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/CashOffice/Balancing/BalancePeriodSaveOrUpdateServiceBase.cs,1,0,180763
+319384,21823180,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/FundTransferTransactionShould.cs,1,0,180763
+319384,21807406,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Tests/FrontEnd.Test/CashOffice/Balancing/TillBalancePeriodSaveOrUpdateServiceShould.cs,1,0,180763
+319384,21853858,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.CashOffice/DefaultTillDeclaration.cs,1,0,180763
+319384,21823181,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/StoreBusinessPeriodShould.cs,1,0,180763
+319384,21823179,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/FinanceHelper.cs,1,0,180763
+319384,21797656,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Finance/Balancing/BalancingStrategyBase.cs,1,0,180763
+319384,21807402,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Tests/FrontEnd.Test/CashOffice/Balancing/SafeBalancePeriodSaveOrUpdateServiceShould.cs,1,0,180763
+319384,21797789,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Finance/FundTransfer/FundTransferTransaction.cs,1,0,180763
+319384,21797786,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Finance/FundTransfer/BusinessDateValidator.cs,1,0,180763
+319384,21801592,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Tests/CashOffice.Test/Balancing/EndOfDayBalancingDataProviderShould.cs,1,0,180763
+319384,22867728,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Documentation/Backwards Breaking History.xml,1,0,180763
+319384,21801596,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Tests/CashOffice.Test/Balancing/StoreBalancePeriodByBusinessPeriodCreatorShould.cs,1,0,180763
+319384,21801598,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Tests/CashOffice.Test/Balancing/StoreBalancePeriodFactoryShould.cs,1,0,180763
+319384,21797668,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Finance/Balancing/StoreBalancePeriodFactory.cs,1,0,180763
+319384,21816360,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/Model/Private/Finance/Balancing/IStoreBalancePeriodFactory.cs,1,0,180763
+319384,21797667,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Finance/Balancing/StoreBalancePeriodByBusinessDayCreator.cs,1,0,180763
+315647,22428797,06/30/2014,Bug,$/Coles/Main/Release/5.4.1/Office/Src/Reports/RDLC/SCOCoinReplenishmentReport.rdlc,1,0,180763
+318898,21698811,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Tests/Retalix.Client.POS.BusinessObjects.Test/StateNavigationRules/KeyboardPosStateNavigationRulesShould.cs,1,0,180756
+318898,21695274,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.Views.TouchLessPOS/MainDisplay_KeyboardPosViewNavigationRules.xml,1,0,180756
+318898,21694092,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.BusinessObjects/StateNavigationRules/KeyboardPosStateNavigationRules.xml,1,0,180756
+321540,21820320,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/Modules/Tax/DataAccess/Retalix.StoreServices.Tax.DataAccess.csproj,1,0,180625
+321540,24275975,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/Modules/Tax/DataAccess/AccessServices/TaxZoneConditionValidator.cs,1,0,180625
+321540,24275985,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/Model/Public/Tax/Exceptions/InvalidTaxZoneConditionException.cs,1,0,180625
+321540,21816815,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/Model/Public/Retalix.StoreServices.Model.csproj,1,0,180625
+321540,21856209,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tax/TaxRateMaintenanceTests.cs,1,0,180625
+321540,21817402,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/Model/Public/Infrastructure/Exceptions/BusinessExceptionErrorCodes.cs,1,0,180625
+321540,21820383,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/Modules/Tax/Installer/TaxComponentsInstaller.cs,1,0,180625
+318902,22123007,07/06/2014,Bug,$/R10/Main/Release/4.x/4.2.30/Servers/Store/App/Src/BL.BusinessComponents/Finance/Declaration/DeclarationTransaction.cs,1,0,180759
+318902,22149163,07/06/2014,Bug,$/R10/Main/Release/4.x/4.2.30/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/FinanceHelper.cs,1,0,180759
+318902,22149165,07/06/2014,Bug,$/R10/Main/Release/4.x/4.2.30/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/StoreBusinessPeriodShould.cs,1,0,180759
+320424,24258249,07/09/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/BusinessServices/FrontEnd/TouchPoint,1,0,180750
+320424,2909006,07/09/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Finance/ArtsPosLog60/TenderControlTransactionCreationVisitor.cs,1,0,180750
+320424,24258250,07/09/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/BusinessServices/FrontEnd,1,0,180750
+320424,24255524,07/09/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/BusinessServices/FrontEnd/TouchPoint/KeyboardConfigurationMaintenanceServiceShould.cs,1,0,180750
+320424,19942586,07/09/2014,Bug,$/R10/Main/Trunk/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.CashOffice/TillClosing.cs,1,0,180750
+320424,2666223,07/09/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/TouchPoint/KeyboardConfigurations/KeyboardConfigurationMaintenanceService.cs,1,0,180750
+320424,2668250,07/09/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Tests/FrontEnd.Test/TouchPoint/KeyboardConfigurationMaintenanceServiceShould.cs,1,0,180750
+253382,17455000,02/12/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/BL.BusinessComponents/Selling/SecurityScale/SecurityScaleMeasurement.cs,1,0,128275
+253382,17455003,02/12/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/BL.BusinessComponents/Selling/SecurityScale/SecurityScaleWeightLearningHandler.cs,1,0,128275
+253382,17467958,02/12/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/DAL.ConnectivityServices/Item/Hbm/SecurityScaleMeasurement.hbm.xml,1,0,128275
+253382,17478669,02/12/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.DAL.UnitTest/Item/SecurityScaleMeasurementDaoShould.cs,1,0,128275
+253382,17475081,02/12/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Selling/SecurityScale/SecurityScaleLearningModeShould.cs,1,0,128275
+253382,17467821,02/12/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/DAL.ConnectivityServices/Item/SecurityScaleMeasurementDao.cs,1,0,128275
+253382,17467820,02/12/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/DAL.ConnectivityServices/Item/SecurityScaleDataDao.cs,1,0,128275
+253382,17473762,02/12/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/Model/Public/Selling/SecurityScale/ISecurityScaleMeasurement.cs,1,0,128275
+253382,17474483,02/12/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/ServiceHost/Retalix.StoreServer.CoreConfiguration/CoreComponents/BusinessComponents.cs,1,0,128275
+318723,18894022,07/06/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Installation/Project/UserInterface/DatabaseConfigrutaionDialogTDM.wxs,1,0,180579
+318723,18894039,07/06/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Installation/Project/Includes/ServerCustomActions.wxi,1,0,180579
+318723,18894020,07/06/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Installation/Project/UserInterface/DatabaseChangeTDMRemoteDataFolderDialog.wxs,1,0,180579
+318723,18894019,07/06/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Installation/Project/UserInterface/DatabaseChangeTDMDataFolderDialog.wxs,1,0,180579
+319528,7832651,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerSignup/CustomerSignupService.cs,1,0,180636
+319528,7339104,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerPaymentMeanUpdate/CustomerPaymentMeanUpdateService.cs,1,0,180636
+319528,13240905,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerCreationTemplateDtoConvertor.cs,1,0,180636
+319528,14344423,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerAccountDtoConvertor.cs,1,0,180636
+319528,9648538,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Subscription/SubscriptionTransformer.cs,1,0,180636
+319528,14344422,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerSubscriptionDtoConvertor.cs,1,0,180636
+319528,8543207,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/Contacts/ContactsCollection.cs,1,0,180636
+319528,2539610,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerUpdatePasswordService.cs,1,0,180636
+319528,19945916,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/AccountBalanceUpdateLoopingExecutor.cs,1,0,180636
+319528,13097790,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerMerge/CustomerMerger.cs,1,0,180636
+319528,13098052,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerSplitService.cs,1,0,180636
+319528,19947785,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/Affilations/BulkGetAffilationsQuery.cs,1,0,180636
+319528,19948088,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/Customer/BulkCustomerExistingQuery.cs,1,0,180636
+319528,7135153,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/CustomerPaymentMeanDao.cs,1,0,180636
+319528,19803003,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/CustomerAccount/CustomerExistingAccountsQuery.cs,1,0,180636
+319528,22395947,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Customer/CustomerHouseHoldMergingAndSplitingcs.cs,1,0,180636
+319528,8251724,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/ResetPassword/CustomerResetPassword.cs,1,0,180636
+319528,6459392,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/AccountType/CustomerAccountTypeContractToModelConvertor.cs,1,0,180636
+319528,13439652,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/AccountTypeDtoConvertor.cs,1,0,180636
+319528,22078595,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerPaymentMeanWithLTTlookup/CustomerPaymentMeanDetailsModelToContractMapper.cs,1,0,180636
+319528,8336383,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/EmailVerification/LoyaltyProCardValidator.cs,1,0,180636
+319528,5867702,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerMaintenance/CustomersContractToModel.cs,1,0,180636
+319528,13439651,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerDtoConvertor.cs,1,0,180636
+319528,7843416,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/CustomeGroupsContractToModel.cs,1,0,180636
+319528,2627545,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerAuthenticationTokenEmailSendService.cs,1,0,180636
+319528,13568942,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/AccessServices/Temp_4_2/SubscriptionServiceDtoParser.cs,1,0,180636
+319528,9648546,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Customer/CustomerBulkInsert.cs,1,0,180636
+319528,8336124,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/Wallet/CustomerWallet.cs,1,0,180636
+319528,9369657,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerMaintenance/BackwardCompatibility/SubscriptionUpdater.cs,1,0,180636
+319528,13531678,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/SubscriptionServiceDtoConvertor.cs,1,0,180636
+319528,16438189,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/CustomerGroupAccountBalanceUpdateService.cs,1,0,180636
+319528,9648554,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Customer/CustomerTransformer.cs,1,0,180636
+319528,19945941,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/AccountBalanceUpdateExecutorBase.cs,1,0,180636
+318720,1131934,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/ViewModels/CashPaymentChangeViewModel.cs,1,0,180682
+208546,14907410,11/03/2013,User Story,$/TargetDomestic/Main/Trunk/StoreServer/DB/Scripts/Target/SqlServer/Data/SecurityScaleConfigurationEntry.sql,1,0,128275
+316695,22428796,07/02/2014,Bug,$/Coles/Main/Release/5.4.1/Office/Src/Reports/RDLC/BlindPickupReport.rdlc,1,0,180763
+303903,2667529,06/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Tests/CashOffice.Test/FundTransfer/EmptyLineAdjustmentShould.cs,1,0,180763
+303903,7899600,06/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/FinanceHelper.cs,1,0,180763
+303903,2772110,06/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Finance/FundTransfer/EmptyLineAdjustment.cs,1,0,180763
+303903,5745494,06/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Finance/ArtsPosLog60/FundTransfer/TenderControlTransactionBuilderBase.cs,1,0,180763
+303903,2772115,06/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Finance/FundTransfer/FundTransferTransactionLogLine.cs,1,0,180763
+303903,22198724,06/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/FundTransferTransactionLogShould.cs,1,0,180763
+303903,6288768,06/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Private/Finance/FundTransfer/ILineAdjustment.cs,1,0,180763
+303903,2772116,06/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Finance/FundTransfer/LineAdjustment.cs,1,0,180763
+320403,2768421,07/08/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/TouchPoint/Repository/TouchPointDao.cs,1,0,180666
+318609,21695699,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.Views/Retalix.Client.POS.Presentation.Views.csproj,1,0,180670
+318609,23879969,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.Views/Converters/StringSourceToTranslatedUriConverter.cs,1,0,180670
+318609,23879970,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.Views.Test/Converters/StringSourceToTranslatedUriConverter.cs,1,0,180670
+318609,21699625,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.Views.Test/Retalix.Client.POS.Presentation.Views.Test.csproj,1,0,180670
+318609,21695038,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.Views.Fuel/Views/ForecourtView.xaml,1,0,180670
+318440,21694314,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/BRM/ActionViewModelBase.cs,1,0,180599
+318440,21694549,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/ViewModels/GeneralErrorViewModel.cs,1,0,180599
+318440,21699300,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.ViewModels.Test/GeneralErrorViewModelShould.cs,1,0,180599
+318440,21694646,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/ViewModels/OptionsSelectionMessageViewModel.cs,1,0,180599
+318440,21694543,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/ViewModels/ExtendedOptionsSelectionMessageViewModel.cs,1,0,180599
+318440,21694844,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/ViewModels/UnlockScreenViewModel.cs,1,0,180599
+319397,21823950,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Selling/Return/ReturnOnlineProductShould.cs,1,0,180772
+319397,22687039,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/Selling/Queries/ProductForSelling.cs,1,0,180772
+319397,21856106,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Selling/UnpaidSellingTests.cs,1,0,180772
+319397,21801291,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Tender/RetailTransactionLog/OnlineAccountDepositLineContentArts6LogWriter.cs,1,0,180772
+319397,21800707,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Selling/Returns/LinesByReturnContextFilter.cs,1,0,180772
+254411,17024021,02/13/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Selling/SecurityScale/SecurityScaleLearningModeShould.cs,1,0,128275
+254411,10478327,02/13/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Selling/SecurityScale/SecurityScaleWeightLearningHandler.cs,1,0,128275
+254411,3306060,02/13/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/Item/SecurityScaleDataDao.cs,1,0,128275
+318849,21694682,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/ViewModels/PosKeyPadViewModel.cs,1,0,180546
+318849,21699374,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.ViewModels.Test/PosKeyPadViewModelShould.cs,1,0,180546
+319392,21797635,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Finance/ArtsPosLog60/FundTransfer/Readers/FundTransferTLogReaderHelper.cs,1,0,180719
+318445,1132140,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/ViewModels/UnlockScreenViewModel.cs,1,0,180599
+318445,1131984,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/ViewModels/GeneralErrorViewModel.cs,1,0,180599
+318445,1131864,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/BRM/ActionViewModelBase.cs,1,0,180599
+318445,19566592,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.ViewModels.Test/GeneralErrorViewModelShould.cs,1,0,180599
+318445,7235678,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/ViewModels/ExtendedOptionsSelectionMessageViewModel.cs,1,0,180599
+318445,1132033,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/ViewModels/OptionsSelectionMessageViewModel.cs,1,0,180599
+318733,21694449,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/ViewModels/CashPaymentChangeViewModel.cs,1,0,180682
+245054,1265940,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Tests/Retalix.StoreServer.BC.Item.UnitTest/SecurityScale/SecurityScaleWeightLearningHandlerShould.cs,1,0,128275
+245054,1265941,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Tests/Retalix.StoreServer.BC.Item.UnitTest/SecurityScale/SecurityScaleWeightValidatorShould.cs,1,0,128275
+245054,10408828,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.SCO/SecurityScale.cs,1,0,128275
+245054,2749470,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Retalix.StoreServer.Model.Test.csproj,1,0,128275
+245054,2666378,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Store/Parameters/SecurityWeightTolerance/SecurityWeightToleranceFactory.cs,1,0,128275
+245054,2666379,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Store/Parameters/SecurityWeightTolerance/SecurityWeightToleranceLine.cs,1,0,128275
+245054,2666377,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Store/Parameters/SecurityWeightTolerance/SecurityWeightTolerance.cs,1,0,128275
+245054,1288299,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.DAL.UnitTest/AssemblySetup.cs,1,0,128275
+245054,1283403,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.AccessServices/Tests/Retalix.StoreServer.DataAccess.EPS.UnitTest/Double/InMemSessionManagerDouble.cs,1,0,128275
+245054,1288407,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.DAL.UnitTest/StoreTest/SecurityWeightToleranceDaoShould.cs,1,0,128275
+245054,2644271,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/Retalix.StoreServices.BusinessServices.FrontEnd.csproj,1,0,128275
+245054,15030326,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Selling/SecurityScale/SecurityScaleParameters.cs,1,0,128275
+245054,1284053,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/INF.IntegratedServices/StoreNet.Environment/Configuration/SecurityScaleConfiguration.cs,1,0,128275
+245054,1378904,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/GPOSWebService/GlobalApplication.cs,1,0,128275
+245054,6289289,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Private/Infrastructure/Legacy/Configuration/ISecurityScaleConfiguration.cs,1,0,128275
+245054,1288111,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Retalix.StoreServer.CoreConfiguration/CoreComponents/DMS.cs,1,0,128275
+245054,1288107,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Retalix.StoreServer.CoreConfiguration/CoreComponents/ConfigurationDiscriptor.cs,1,0,128275
+245054,6256145,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Public/Selling/SecurityScale/ISecurityScaleMeasurementDao.cs,1,0,128275
+245054,1288101,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Retalix.StoreServer.CoreConfiguration/CoreComponents/BusinessComponents.cs,1,0,128275
+245054,6256144,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Public/Selling/SecurityScale/ISecurityScaleMeasurement.cs,1,0,128275
+245054,4829323,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Selling/SecurityScale/SecurityScaleWeightValidationShould.cs,1,0,128275
+245054,16628393,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/SecurityScale/SecurityWeightTolerance/DMS/SecurityWeightToleranceMovableFormatter.cs,1,0,128275
+245054,2635773,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/Item/SecurityScaleMeasurementDao.cs,1,0,128275
+245054,16628392,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/SecurityScale/SecurityWeightTolerance/DMS/SecurityWeightToleranceMovableDao.cs,1,0,128275
+245054,16628394,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/SecurityScale/SecurityWeightTolerance/DMS/SecurityWeightToleranceMovableServicesResolver.cs,1,0,128275
+245054,9975281,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Public/Selling/SecurityScale/SecurityWeightTolerance/ISecurityWeightToleranceDao.cs,1,0,128275
+245054,2670320,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Selling/Retalix.StoreServices.BusinessComponents.Selling.csproj,1,0,128275
+245054,9975283,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Public/Selling/SecurityScale/ISecurityScaleData.cs,1,0,128275
+245054,2635792,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/Item/Hbm/SecurityScaleMeasurement.hbm.xml,1,0,128275
+245054,1284016,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/INF.IntegratedServices/StoreNet.Environment/StoreNet.Environment.csproj,1,0,128275
+245054,9975288,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Public/Selling/SecurityScale/ISecurityScaleWeightLearningHandler.cs,1,0,128275
+245054,1287663,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/GPOSWebService/GPOSWebService.csproj,1,0,128275
+245054,17024021,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Selling/SecurityScale/SecurityScaleLearningModeShould.cs,1,0,128275
+245054,3306602,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Maintenance/Consumable/SecurityScaleData/DMS/SecurityScaleDataMovableFormatter.cs,1,0,128275
+245054,14913838,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/SaveAndRecall/DmsEmulator.cs,1,0,128275
+245054,2636053,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/Store/DTO/SecurityWeightTolerance/SecurityWeightToleranceDao.cs,1,0,128275
+245054,17029975,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/SecurityScale/SecurityWeightTolerance/DMS,1,0,128275
+245054,9975279,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Public/Selling/SecurityScale/SecurityWeightTolerance/ISecurityWeightTolerance.cs,1,0,128275
+245054,2648100,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/TouchPoint/TouchPointFullGetByComputerName.cs,1,0,128275
+245054,3306039,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/Item/Hbm/SecurityScaleData.hbm.xml,1,0,128275
+245054,10478321,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Selling/SecurityScale/Validators/WeightWithinRangeValidator.cs,1,0,128275
+245054,9645939,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Private/Infrastructure/Legacy/Bulk/SecurityScaleMaintenanceDTO.cs,1,0,128275
+245054,10478322,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Selling/SecurityScale/SecurityScaleData.cs,1,0,128275
+245054,2649957,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Tests/FrontEnd.Test/TouchPoint/TouchPointFullGetByComputerNameShould.cs,1,0,128275
+245054,10478325,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Selling/SecurityScale/SecurityScaleMeasurement.cs,1,0,128275
+245054,10478327,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Selling/SecurityScale/SecurityScaleWeightLearningHandler.cs,1,0,128275
+245054,10478328,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Selling/SecurityScale/SecurityScaleWeightValidator.cs,1,0,128275
+245054,2770447,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/Tests/Customer.Test/CustomerBase.cs,1,0,128275
+245054,2636067,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/Store/Hbm/SecurityWeightTolerance.hbm.xml,1,0,128275
+245054,16604589,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/GPOSWebService/SecurityScaleInitializer.cs,1,0,128275
+245054,6255263,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Private/Retalix.StoreServices.Model.Private.csproj,1,0,128275
+245054,16441590,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Public/Selling/SecurityScale/ISecurityScaleParametersProvider.cs,1,0,128275
+245054,6275398,01/22/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Public/Retalix.StoreServices.Model.csproj,1,0,128275
+319527,6855993,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Tests/Retalix.CDM.BusinessServices.Test/CustomerMaintenanceShould.cs,1,0,180636
+257287,17478668,02/20/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.DAL.UnitTest/Item/SecurityScaleDataMovableDaoShould.cs,1,0,128275
+257287,17476041,02/20/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/ServiceHost/Tests/DMS.Int.Test/SecurityScaleDataDmsIntShould.cs,1,0,128275
+257287,17476040,02/20/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/ServiceHost/Tests/DMS.Int.Test/SecurityScaleDataColdStartShould.cs,1,0,128275
+257287,17467820,02/20/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/DAL.ConnectivityServices/Item/SecurityScaleDataDao.cs,1,0,128275
+257287,17477913,02/20/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/ServiceHost/Tests/DMS.Int.Test/DMS.Int.Test.csproj,1,0,128275
+257287,17474483,02/20/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/ServiceHost/Retalix.StoreServer.CoreConfiguration/CoreComponents/BusinessComponents.cs,1,0,128275
+212749,15029822,11/11/2013,User Story,$/Sainsburys/Main/Trunk/StoreServer/Config/3000_SCO/00005_02SecurityScale.SystemParametersAdd,1,0,128275
+212749,8696076,11/11/2013,User Story,$/Sainsburys/Main/Trunk/StoreServer/Config/3000_SCO/00004_01_SecurityScale.ConfigurationMaintenance,1,0,128275
+319287,7832651,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerSignup/CustomerSignupService.cs,1,0,180636
+319287,7339104,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerPaymentMeanUpdate/CustomerPaymentMeanUpdateService.cs,1,0,180636
+319287,13240905,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerCreationTemplateDtoConvertor.cs,1,0,180636
+319287,14344423,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerAccountDtoConvertor.cs,1,0,180636
+319287,9648538,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Subscription/SubscriptionTransformer.cs,1,0,180636
+319287,14344422,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerSubscriptionDtoConvertor.cs,1,0,180636
+319287,8543207,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/Contacts/ContactsCollection.cs,1,0,180636
+319287,2539610,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerUpdatePasswordService.cs,1,0,180636
+319287,13097790,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerMerge/CustomerMerger.cs,1,0,180636
+319287,13098052,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerSplitService.cs,1,0,180636
+319287,19947785,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/Affilations/BulkGetAffilationsQuery.cs,1,0,180636
+319287,19948088,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/Customer/BulkCustomerExistingQuery.cs,1,0,180636
+319287,7135153,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/CustomerPaymentMeanDao.cs,1,0,180636
+319287,19803003,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/CustomerAccount/CustomerExistingAccountsQuery.cs,1,0,180636
+319287,8251724,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/ResetPassword/CustomerResetPassword.cs,1,0,180636
+319287,6459392,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/AccountType/CustomerAccountTypeContractToModelConvertor.cs,1,0,180636
+319287,13439652,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/AccountTypeDtoConvertor.cs,1,0,180636
+319287,22078595,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerPaymentMeanWithLTTlookup/CustomerPaymentMeanDetailsModelToContractMapper.cs,1,0,180636
+319287,8336383,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/EmailVerification/LoyaltyProCardValidator.cs,1,0,180636
+319287,5867702,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerMaintenance/CustomersContractToModel.cs,1,0,180636
+319287,7843416,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/CustomeGroupsContractToModel.cs,1,0,180636
+319287,13439651,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerDtoConvertor.cs,1,0,180636
+319287,2627545,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerAuthenticationTokenEmailSendService.cs,1,0,180636
+319287,13568942,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/AccessServices/Temp_4_2/SubscriptionServiceDtoParser.cs,1,0,180636
+319287,9648546,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Customer/CustomerBulkInsert.cs,1,0,180636
+319287,8336124,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/Wallet/CustomerWallet.cs,1,0,180636
+319287,9369657,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerMaintenance/BackwardCompatibility/SubscriptionUpdater.cs,1,0,180636
+319287,13531678,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/SubscriptionServiceDtoConvertor.cs,1,0,180636
+319287,9648554,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Customer/CustomerTransformer.cs,1,0,180636
+212746,9354752,11/11/2013,User Story,$/Sainsburys/Main/Release/2.x/2.x/StoreServer/Config/3000_SCO/00004_01_SecurityScale.ConfigurationMaintenance,1,0,128275
+212746,15029815,11/11/2013,User Story,$/Sainsburys/Main/Release/2.x/2.x/StoreServer/Config/3000_SCO/00005_02SecurityScale.SystemParametersAdd,1,0,128275
+318335,21699189,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.ViewModels.SCO.Test/ViewModels/SCOSaleModeViewModelShould.cs,1,0,180539
+318335,23873426,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.ViewModels.SCO.Test/ViewModels/ConsumableGroupSaleModeOpenPriceHandledByShopperViewModelShould.cs,1,0,180539
+318335,21699133,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.ViewModels.SCO.Test/Retalix.Client.POS.Presentation.ViewModels.SCO.Test.csproj,1,0,180539
+318335,21697370,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/SCO/Retalix.Client.POS.Presentation.ViewModels.SCO/ViewModels/ConsumableGroupSaleModeOpenPriceHandledByShopperViewModel.cs,1,0,180539
+254427,17455003,02/13/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/BL.BusinessComponents/Selling/SecurityScale/SecurityScaleWeightLearningHandler.cs,1,0,128275
+254427,17475081,02/13/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Selling/SecurityScale/SecurityScaleLearningModeShould.cs,1,0,128275
+254427,17464212,02/13/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/DAL.ConnectivityServices/Selling/ExtensionMigrationHandler.cs,1,0,128275
+254427,17467820,02/13/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/DAL.ConnectivityServices/Item/SecurityScaleDataDao.cs,1,0,128275
+254427,17478840,02/13/2014,User Story,$/R10/Main/Release/5.x/5.0.3/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/SaveAndRecall/SaveAndRecallShould.cs,1,0,128275
+314193,16078916,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Finance/Balancing/BalancingStrategyBase.cs,1,0,180763
+314193,5188163,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/FundTransferTransactionShould.cs,1,0,180763
+314193,2772055,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Finance/Balancing/StoreBalancePeriodByBusinessDayCreator.cs,1,0,180763
+314193,2772049,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Finance/Balancing/EndOfDayBalancingDataPrvider.cs,1,0,180763
+314193,7899600,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/FinanceHelper.cs,1,0,180763
+314193,7843273,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/BalancingShould.cs,1,0,180763
+314193,2772056,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Finance/Balancing/StoreBalancePeriodFactory.cs,1,0,180763
+314193,2644885,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/CashOffice/Balancing/BalancePeriodSaveOrUpdateServiceBase.cs,1,0,180763
+314193,6288676,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Private/Finance/Balancing/IStoreBalancePeriodFactory.cs,1,0,180763
+314193,2667502,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Tests/CashOffice.Test/Balancing/StoreBalancePeriodFactoryShould.cs,1,0,180763
+314193,2667499,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Tests/CashOffice.Test/Balancing/StoreBalancePeriodByBusinessPeriodCreatorShould.cs,1,0,180763
+314193,2648573,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Tests/FrontEnd.Test/CashOffice/Balancing/SafeBalancePeriodSaveOrUpdateServiceShould.cs,1,0,180763
+314193,2667495,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Tests/CashOffice.Test/Balancing/EndOfDayBalancingDataProviderShould.cs,1,0,180763
+314193,16169978,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/StoreBusinessPeriodShould.cs,1,0,180763
+314193,2648579,06/26/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Tests/FrontEnd.Test/CashOffice/Balancing/TillBalancePeriodSaveOrUpdateServiceShould.cs,1,0,180763
+320156,8696394,07/08/2014,Bug,$/Coles/Main/Trunk/POSClient/Src/Retalix.Client.Coles.POS.Presentation.ViewModels/CashPaymentChangeViewModel.cs,1,0,180682
+320263,21812899,07/08/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/TouchPoint/Repository/TouchPointDao.cs,1,0,180666
+321478,21694314,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.ViewModels/BRM/ActionViewModelBase.cs,1,0,180604
+321478,21699494,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.ViewModels.Test/BRMInputData/ActionViewModelBaseShould.cs,1,0,180604
+319291,21806390,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/AccountBalanceUpdateExecutorBase.cs,1,0,180620
+319291,21806391,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/AccountBalanceUpdateLoopingExecutor.cs,1,0,180620
+319291,21806393,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/CustomerGroupAccountBalanceUpdateService.cs,1,0,180620
+319291,21806397,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerMerge/CustomerMerger.cs,1,0,180620
+318340,19568918,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.ViewModels.SCO.Test/ViewModels/SCOSaleModeViewModelShould.cs,1,0,180539
+318340,19568860,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.ViewModels.SCO.Test/Retalix.Client.POS.Presentation.ViewModels.SCO.Test.csproj,1,0,180539
+318340,23874950,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.ViewModels.SCO.Test/ViewModels/ConsumableGroupSaleModeOpenPriceHandledByShopperViewModelShould.cs,1,0,180539
+318340,4005662,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/SCO/Retalix.Client.POS.Presentation.ViewModels.SCO/ViewModels/ConsumableGroupSaleModeOpenPriceHandledByShopperViewModel.cs,1,0,180539
+318951,22149162,07/06/2014,Bug,$/R10/Main/Release/4.x/4.2.30/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/DeclarationTransactionShould.cs,1,0,180759
+320644,21810775,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Customer/CustomerTransformer.cs,1,0,180620
+320644,21810769,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Customer/CustomerBulkInsert.cs,1,0,180620
+320644,21806455,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/AccountType/CustomerAccountTypeContractToModelConvertor.cs,1,0,180620
+320644,21806521,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerSignup/CustomerSignupService.cs,1,0,180620
+320644,21806390,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/AccountBalanceUpdateExecutorBase.cs,1,0,180620
+320644,21797181,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/ResetPassword/CustomerResetPassword.cs,1,0,180620
+320644,21806391,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/AccountBalanceUpdateLoopingExecutor.cs,1,0,180620
+320644,21809433,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Tests/Retalix.CDM.BusinessServices.Test/CustomerMaintenanceShould.cs,1,0,180620
+320644,21810725,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/CustomerPaymentMeanDao.cs,1,0,180620
+320644,21797102,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/EmailVerification/LoyaltyProCardValidator.cs,1,0,180620
+320644,21810850,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/CustomerAccount/CustomerExistingAccountsQuery.cs,1,0,180620
+320644,21810849,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/Customer/BulkCustomerExistingQuery.cs,1,0,180620
+320644,21806392,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/CustomeGroupsContractToModel.cs,1,0,180620
+320644,21810848,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/Affilations/BulkGetAffilationsQuery.cs,1,0,180620
+320644,21796964,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/Contacts/ContactsCollection.cs,1,0,180620
+320644,21806393,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/CustomerGroupAccountBalanceUpdateService.cs,1,0,180620
+320644,22687315,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Customer/CustomerHouseHoldMergingAndSplitingcs.cs,1,0,180620
+320644,21806397,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerMerge/CustomerMerger.cs,1,0,180620
+320644,21810806,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Subscription/SubscriptionTransformer.cs,1,0,180620
+320644,21797042,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerAccountDtoConvertor.cs,1,0,180620
+320644,21797041,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/AccountTypeDtoConvertor.cs,1,0,180620
+320644,21797225,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/Wallet/CustomerWallet.cs,1,0,180620
+320644,21797047,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerSubscriptionDtoConvertor.cs,1,0,180620
+320644,21806374,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerAuthenticationTokenEmailSendService.cs,1,0,180620
+320644,21806511,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerPaymentMeanUpdate/CustomerPaymentMeanUpdateService.cs,1,0,180620
+320644,21797045,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerDtoConvertor.cs,1,0,180620
+320644,21797044,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerCreationTemplateDtoConvertor.cs,1,0,180620
+320644,21806379,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerSplitService.cs,1,0,180620
+320644,21797050,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/SubscriptionServiceDtoConvertor.cs,1,0,180620
+320644,21806496,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerMaintenance/CustomersContractToModel.cs,1,0,180620
+320644,21796913,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/AccessServices/Temp_4_2/SubscriptionServiceDtoParser.cs,1,0,180620
+320644,21806502,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerMaintenance/BackwardCompatibility/SubscriptionUpdater.cs,1,0,180620
+320644,22686956,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerPaymentMeanWithLTTlookup/CustomerPaymentMeanDetailsModelToContractMapper.cs,1,0,180620
+320644,21806380,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerUpdatePasswordService.cs,1,0,180620
+318837,21808657,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Tests/FrontEnd.Test/TouchPoint/KeyboardConfigurationMaintenanceServiceShould.cs,1,0,180750
+318837,21853876,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.CashOffice/TillClosing.cs,1,0,180750
+318837,24013481,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/BusinessServices/FrontEnd/TouchPoint,1,0,180750
+318837,24013480,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/BusinessServices/FrontEnd,1,0,180750
+318837,21805381,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/TouchPoint/KeyboardConfigurations/KeyboardConfigurationMaintenanceService.cs,1,0,180750
+318837,21822849,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Retalix.StoreServer.Model.Test.csproj,1,0,180750
+318837,24009871,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/BusinessServices/FrontEnd/TouchPoint/KeyboardConfigurationMaintenanceServiceShould.cs,1,0,180750
+319180,13097790,07/07/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerMerge/CustomerMerger.cs,1,0,180636
+310713,19668924,06/22/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.Views.Fuel.Test/Views/ForecourtViewShould.cs,1,0,180670
+310713,4666742,06/22/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.Views.Fuel/Views/ForecourtView.xaml,1,0,180670
+310713,19668904,06/22/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.Views.Fuel.Test/Retalix.Client.POS.Presentation.Views.Fuel.Test.csproj,1,0,180670
+321211,24253093,07/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/Modules/Tax/DataAccess/AccessServices/TaxZoneConditionValidator.cs,1,0,180627
+321211,23423679,07/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/Modules/Tax/BusinessComponents/Validators/TaxRateProductSelectionGroupValidator.cs,1,0,180627
+321211,24253639,07/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Public/Tax/Exceptions/InvalidTaxZoneConditionException.cs,1,0,180627
+321211,12555561,07/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/Modules/Tax/DataAccess/Retalix.StoreServices.Tax.DataAccess.csproj,1,0,180627
+321211,12010142,07/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/Modules/Tax/Installer/TaxComponentsInstaller.cs,1,0,180627
+321211,6620853,07/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Public/Infrastructure/Exceptions/BusinessExceptionErrorCodes.cs,1,0,180627
+321211,6275398,07/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/Model/Public/Retalix.StoreServices.Model.csproj,1,0,180627
+321211,17204604,07/10/2014,Bug,$/R10/Main/Trunk/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tax/TaxRateMaintenanceTests.cs,1,0,180627
+319049,3049497,07/07/2014,Bug,$/R10/Main/Trunk/Office/Src/Modules/IDM/Web/Controllers/UserPickerController.cs,1,0,180743
+310795,21699550,06/22/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.Views.Fuel.Test/Retalix.Client.POS.Presentation.Views.Fuel.Test.csproj,1,0,180670
+310795,21695038,06/22/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Retalix.Client.POS.Presentation.Views.Fuel/Views/ForecourtView.xaml,1,0,180670
+310795,21699569,06/22/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.Views.Fuel.Test/Views/ForecourtViewShould.cs,1,0,180670
+319813,3048615,07/08/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Tender/RetailTransactionLog/OnlineAccountDepositLineContentArts6LogWriter.cs,1,0,180773
+319813,15838486,07/08/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Selling/Returns/LinesByReturnContextFilter.cs,1,0,180773
+319813,5868103,07/08/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Selling/Return/ReturnOnlineProductShould.cs,1,0,180773
+321324,21810775,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Customer/CustomerTransformer.cs,1,0,180620
+321324,21810769,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Customer/CustomerBulkInsert.cs,1,0,180620
+321324,21806455,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/AccountType/CustomerAccountTypeContractToModelConvertor.cs,1,0,180620
+321324,21806521,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerSignup/CustomerSignupService.cs,1,0,180620
+321324,21806390,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/AccountBalanceUpdateExecutorBase.cs,1,0,180620
+321324,21797181,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/ResetPassword/CustomerResetPassword.cs,1,0,180620
+321324,21806391,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/AccountBalanceUpdateLoopingExecutor.cs,1,0,180620
+321324,21809433,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Tests/Retalix.CDM.BusinessServices.Test/CustomerMaintenanceShould.cs,1,0,180620
+321324,21810725,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/CustomerPaymentMeanDao.cs,1,0,180620
+321324,21797102,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/EmailVerification/LoyaltyProCardValidator.cs,1,0,180620
+321324,21810850,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/CustomerAccount/CustomerExistingAccountsQuery.cs,1,0,180620
+321324,21810849,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/Customer/BulkCustomerExistingQuery.cs,1,0,180620
+321324,21806392,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/CustomeGroupsContractToModel.cs,1,0,180620
+321324,21810848,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/Queries/Affilations/BulkGetAffilationsQuery.cs,1,0,180620
+321324,21796964,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/Contacts/ContactsCollection.cs,1,0,180620
+321324,21806393,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/BackwardCompatibility/CustomerGroupAccountBalanceUpdateService.cs,1,0,180620
+321324,22687315,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Customer/CustomerHouseHoldMergingAndSplitingcs.cs,1,0,180620
+321324,21806397,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerMerge/CustomerMerger.cs,1,0,180620
+321324,21810806,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/DAL.ConnectivityServices/CDM/DMS/Subscription/SubscriptionTransformer.cs,1,0,180620
+321324,21797042,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerAccountDtoConvertor.cs,1,0,180620
+321324,21797041,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/AccountTypeDtoConvertor.cs,1,0,180620
+321324,21797225,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/Wallet/CustomerWallet.cs,1,0,180620
+321324,21797047,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerSubscriptionDtoConvertor.cs,1,0,180620
+321324,21806374,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerAuthenticationTokenEmailSendService.cs,1,0,180620
+321324,21806511,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerPaymentMeanUpdate/CustomerPaymentMeanUpdateService.cs,1,0,180620
+321324,21797045,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerDtoConvertor.cs,1,0,180620
+321324,21797044,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/CustomerCreationTemplateDtoConvertor.cs,1,0,180620
+321324,21806379,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerSplitService.cs,1,0,180620
+321324,21797050,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/DMS/Convertor/SubscriptionServiceDtoConvertor.cs,1,0,180620
+321324,21806496,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerMaintenance/CustomersContractToModel.cs,1,0,180620
+321324,21796913,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/CDM/AccessServices/Temp_4_2/SubscriptionServiceDtoParser.cs,1,0,180620
+321324,21806502,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerMaintenance/BackwardCompatibility/SubscriptionUpdater.cs,1,0,180620
+321324,22686956,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/New/CustomerPaymentMeanWithLTTlookup/CustomerPaymentMeanDetailsModelToContractMapper.cs,1,0,180620
+321324,21806380,07/10/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Retalix.CDM.BusinessServices/CustomerUpdatePasswordService.cs,1,0,180620
+318847,8888338,07/06/2014,Bug,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/FinanceHelper.cs,1,0,180759
+318847,16609265,07/06/2014,Bug,$/R10/Main/Release/4.x/4.2/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/StoreBusinessPeriodShould.cs,1,0,180759
+319810,5629385,07/08/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/Finance/ArtsPosLog60/FundTransfer/Readers/FundTransferTLogReaderHelper.cs,1,0,180719
+319054,21720316,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Modules/IDM/Web/Scripts/UserPicker/UserPickerPlugins.js,1,0,180777
+319054,21718939,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Modules/ClientConfiguration/Web/Scripts/FieldTypes/TouchpointPickerPlugins.js,1,0,180777
+318926,21723615,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Web/Scripts/FieldTypes/LocalDatePicker.js,1,0,180711
+318926,22866629,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Tests/Infrastructure.Tests/ViewModels/LocalDate/DataMapping/LocalDateTimeViewModelToNullebaleDateTimeMapperShould.cs,1,0,180711
+318926,21722028,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Modules/Promotion/Web/Scripts/PromotionDetails/CriteriaBox/PromotionActiveDaysBoxPlugIn.js,1,0,180711
+318926,22866630,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Web/Scripts/FieldTypes/LocalDateRangePicker.js,1,0,180711
+318926,21717134,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Infrastructure/ViewModels/LocalDate/LocalDateTimeViewModel.cs,1,0,180711
+318926,22866627,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Tests/Infrastructure.Tests/ViewModels/LocalDate/DataMapping/LocalDateTimeViewModelToDateTimeMapperShould.cs,1,0,180711
+318926,21722128,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Modules/Promotion/Web/ViewModels/Promotion/Canvas/Criteria/ActiveDays/DataMapping/ConditionPromotionActiveDaysMapper.cs,1,0,180711
+318926,21723799,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Web/Scripts/StoreOfficeClient/Globalization/CurrencyFormatting.js,1,0,180711
+318926,22866623,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Infrastructure/ViewModels/LocalDate/DataMapping/LocalDateTimeViewModelToNullebaleDateTimeMapper.cs,1,0,180711
+318926,21723616,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Web/Scripts/FieldTypes/LocalDateTimePicker.js,1,0,180711
+318926,22866621,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Infrastructure/ViewModels/LocalDate/DataMapping/LocalDateTimeViewModelToDateTimeMapper.cs,1,0,180711
+318926,21723618,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Web/Scripts/FieldTypes/LocalTimePickerPlugin.js,1,0,180711
+258470,9369568,02/24/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.DAL.UnitTest/Item/SecurityScaleDataMovableDaoShould.cs,1,0,128275
+258470,3306060,02/24/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/Item/SecurityScaleDataDao.cs,1,0,128275
+318921,22995089,07/06/2014,Bug,$/R10/Main/Release/4.x/4.2.32/Servers/Store/App/Src/BL.BusinessComponents/Finance/Declaration/DeclarationTransaction.cs,1,0,180758
+318921,23021429,07/06/2014,Bug,$/R10/Main/Release/4.x/4.2.32/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/StoreBusinessPeriodShould.cs,1,0,180758
+318921,23021427,07/06/2014,Bug,$/R10/Main/Release/4.x/4.2.32/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Finance/FinanceHelper.cs,1,0,180758
+263265,18344216,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Command Handlers/Tender/PreTenderUpdateCommandHandler.m,1,0,128154
+263265,10701613,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Contract/Elements/Transaction/LineItemElement.m,1,0,128154
+263265,18345266,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Actions/TenderActions/InformativeAlertContext.h,1,0,128154
+263265,10701612,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Contract/Elements/Transaction/LineItemElement.h,1,0,128154
+263265,18345267,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Actions/TenderActions/InformativeAlertContext.m,1,0,128154
+263265,10701432,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS.xcodeproj/project.pbxproj,1,0,128154
+263265,18345264,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Actions/TenderActions/InformativeAlertAction.h,1,0,128154
+263265,18345265,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Actions/TenderActions/InformativeAlertAction.m,1,0,128154
+263265,12347225,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Service Agent/Query Managers/TenderQueryManager.m,1,0,128154
+263265,12347224,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Service Agent/Query Managers/TenderQueryManager.h,1,0,128154
+263265,10702036,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Shared/Constants.h,1,0,128154
+263265,18344033,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Flow Controllers/Tender Flows/PreTenderUpdateProcess.h,1,0,128154
+263265,16728624,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Flow Controllers/Tender Flows/PreTenderAddContext.h,1,0,128154
+263265,15831469,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Factory/Process Factory/ProcessCoreFactory.m,1,0,128154
+263265,18344034,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Flow Controllers/Tender Flows/PreTenderUpdateProcess.m,1,0,128154
+263265,18344215,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Command Handlers/Tender/PreTenderUpdateCommandHandler.h,1,0,128154
+263265,15815643,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Factory/FactoryCoreConstants.h,1,0,128154
+263265,16604576,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Flow Controllers/Tender Flows/TenderCardIdentifiedFlow.m,1,0,128154
+263265,16438596,03/05/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/MobilePOSCore/MobilePOSCore/Localizable.strings,1,0,128154
+212342,14996354,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/ServiceHost/Retalix.StoreServer.CoreConfiguration/CoreComponents/BusinessComponents.cs,1,0,128275
+212342,14979855,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/BL.BusinessComponents/Tests/Retalix.StoreServer.BC.Item.UnitTest/SecurityScale/SecurityScaleWeightValidatorShould.cs,1,0,128275
+212342,14979854,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/BL.BusinessComponents/Tests/Retalix.StoreServer.BC.Item.UnitTest/SecurityScale/SecurityScaleWeightLearningHandlerShould.cs,1,0,128275
+212342,14993815,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/Model/Private/Infrastructure/Legacy/Configuration/ISecurityScaleConfiguration.cs,1,0,128275
+212342,14996364,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/ServiceHost/Retalix.StoreServer.CoreConfiguration/CoreComponents/ConfigurationDiscriptor.cs,1,0,128275
+212342,14980755,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/BL.BusinessComponents/Selling/Legacy/SecurityScale/SecurityScaleWeightValidator.cs,1,0,128275
+212342,14980754,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/BL.BusinessComponents/Selling/Legacy/SecurityScale/SecurityScaleWeightLearningHandler.cs,1,0,128275
+212342,14976481,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/BL.BusinessComponents/Selling/Retalix.StoreServices.BusinessComponents.Selling.csproj,1,0,128275
+212342,15001385,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/DB/Scripts/Core/SqlServer/RunAlwaysAfter/SystemParameters.sql,1,0,128275
+212342,14985285,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/BL.BusinessServices/Tests/FrontEnd.Test/TouchPoint/TouchPointFullGetByComputerNameShould.cs,1,0,128275
+212342,15000756,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.Model.Test/Selling/SecurityScale/SecurityScaleWeightValidationShould.cs,1,0,128275
+212342,14985752,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/TouchPoint/TouchPointFullGetByComputerName.cs,1,0,128275
+212342,14996654,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/Model/Private/Retalix.StoreServices.Model.Private.csproj,1,0,128275
+212342,14989307,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/INF.IntegratedServices/StoreNet.Environment/Configuration/SecurityScaleConfiguration.cs,1,0,128275
+212342,14989270,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/INF.IntegratedServices/StoreNet.Environment/StoreNetApplicationCoreServices.cs,1,0,128275
+212342,15028020,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/BL.BusinessComponents/Selling/Legacy/SecurityScale/SecurityScaleParameters.cs,1,0,128275
+212342,14989269,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/INF.IntegratedServices/StoreNet.Environment/StoreNet.Environment.csproj,1,0,128275
+212342,15028021,11/11/2013,User Story,$/R10/Main/Release/4.x/4.2.13/Servers/Store/App/Src/Model/Private/Selling/SecurityScale/ISecurityScaleParametersProvider.cs,1,0,128275
+318807,21828600,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Code/General/MD.stp_Mng_ProcedureEngine_UpdateCompleted_WU.sql,1,0,180613
+318807,24010104,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Upgrade/5.1.0_5.5.0/0006_DataMD_Mng_Fact_Dim.sql,1,0,180613
+318807,24010105,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Upgrade/5.1.0_5.5.0/0007_DataMD_Mng_ProcedureEngineFlow.sql,1,0,180613
+318807,24010106,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Upgrade/5.1.0_5.5.0/0008_DataDbo_DimMeasures.sql,1,0,180613
+318807,21791962,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/ReportingWarehouse/R10_Analytics_Cube/Sales.cube,1,0,180613
+318807,22687261,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Upgrade/5.1.0_5.5.0/0011_Dummy.sql,1,0,180613
+318807,21828532,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Code/General/dbo.stp_Fact_PromotionLift.sql,1,0,180613
+318807,21791984,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/ReportingWarehouse/R10_Analytics_ETL/ProcedureEngine.dtsx,1,0,180613
+318807,21828530,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Code/General/dbo.stp_Fact_ItemSales.sql,1,0,180613
+318807,21828598,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Code/General/MD.stp_Mng_ProcedureEngine_CreateProcQueue.sql,1,0,180613
+318807,21828599,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Code/General/MD.stp_Mng_ProcedureEngine_Get_WU.sql,1,0,180613
+318807,21828520,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Code/General/dbo.stp_Fact_CashierProductivityTarget.sql,1,0,180613
+318807,21828670,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Data/dbo.DimMeasures.sql,1,0,180613
+318807,21791947,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/ReportingWarehouse/R10_Analytics_Cube/Loyalty.cube,1,0,180613
+318807,21828518,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Code/General/dbo.stp_DimUserStorePermission.sql,1,0,180613
+318807,21828689,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Data/MD.Mng_RI_Values.sql,1,0,180613
+318807,21791971,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/ReportingWarehouse/R10_Analytics_ETL/BaseOlapDB.xmla,1,0,180613
+318807,21828688,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Data/MD.Mng_ProcedureEngineFlow.sql,1,0,180613
+320450,21853894,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.CashOffice/ContractBuilders/SafeTransferRequestBuilder.cs,1,0,180531
+320450,21797756,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Finance/Declaration/DeclarationTransaction.cs,1,0,180531
+320450,21797789,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Finance/FundTransfer/FundTransferTransaction.cs,1,0,180531
+320450,21856258,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tenders/Retalix.IntegrationTests.Tenders.csproj,1,0,180531
+320450,21803471,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/CashOffice/Declaration/DeclarationService.cs,1,0,180531
+320450,24040870,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tenders/TenderRestrictionsPickup.cs,1,0,180531
+320450,21856263,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tenders/TenderRestrictions.cs,1,0,180531
+320450,24040871,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tenders/TenderRestrictionsLoan.cs,1,0,180531
+320450,21853896,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.CashOffice/ContractBuilders/TenderPickupRequestBuilder.cs,1,0,180531
+320450,21807420,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/Tests/FrontEnd.Test/CashOffice/Declaration/DeclarationServiceShould.cs,1,0,180531
+320450,24052174,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tenders/TenderRestrictionsBank.cs,1,0,180531
+320450,21854756,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Framework/Entities/Store.cs,1,0,180531
+320450,24055643,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tenders/TenderRestrictionsDeclaration.cs,1,0,180531
+320450,21797740,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessComponents/Finance/Configuration/AutomatedOpeningFundsAdaptor.cs,1,0,180531
+320450,21854719,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Framework/ContractBuilders/BusinessRule/BusinessRuleBehaviorBuilder.cs,1,0,180531
+320450,21854724,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Framework/Entities/AccountProfile.cs,1,0,180531
+320450,24055641,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tenders/TenderRestrictionsSafeTransfer.cs,1,0,180531
+320450,24040880,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tenders/TenderRestrictionsHelper.cs,1,0,180531
+320450,21856273,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tenders/ContractBuilder/SellableTenderLookupBuilder.cs,1,0,180531
+320450,21803484,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Src/BL.BusinessServices/FrontEnd/CashOffice/FundTransfer/FundTransferTransactionServiceBase.cs,1,0,180531
+320450,24040969,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tenders/TenderRestrictionsPaidOut.cs,1,0,180531
+320450,24040968,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Tenders/TenderRestrictionsPaidIn.cs,1,0,180531
+320450,21854609,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.Framework/TransactionTestBase.cs,1,0,180531
+320450,21853886,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.CashOffice/ContractBuilders/BankDepositRequestBuilder.cs,1,0,180531
+320450,21853887,07/09/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/Tests/Integration/Src/Retalix.IntegrationTests.CashOffice/ContractBuilders/BankReceiptRequestBuilder.cs,1,0,180531
+321916,19441121,07/13/2014,Bug,$/R10/Main/Trunk/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Code/General/dbo.stp_Fact_CustomerAccountBalance.sql,1,0,180635
+321916,24278083,07/13/2014,Bug,$/R10/Main/Trunk/Servers/ReportingWarehouse/ParseXML/ParseXML/ParseXML.csproj.vspscc,1,0,180635
+321916,13531016,07/13/2014,Bug,$/R10/Main/Trunk/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Code/General/dbo.stp_DimCustomers.sql,1,0,180635
+321916,24278082,07/13/2014,Bug,$/R10/Main/Trunk/Servers/ReportingWarehouse/ParseXML/Debugger/Debugger.csproj.vspscc,1,0,180635
+321916,24278084,07/13/2014,Bug,$/R10/Main/Trunk/Servers/ReportingWarehouse/Solution/ParseXML.vssscc,1,0,180635
+321916,23556776,07/13/2014,Bug,$/R10/Main/Trunk/Servers/ReportingWarehouse/ParseXML/Debugger/Debugger.csproj,1,0,180635
+321916,24278058,07/13/2014,Bug,$/R10/Main/Trunk/Servers/ReportingWarehouse/Solution/ParseXML.sln,1,0,180635
+321916,23058311,07/13/2014,Bug,$/R10/Main/Trunk/Servers/ReportingWarehouse/ParseXML/ParseXML/ParseXML.csproj,1,0,180635
+263771,18349043,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Contract/Elements/Tender/TenderLine.h,1,0,128154
+263771,18349040,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Flow Controllers/Transaction Flows/LineItem Flows/DataAddFlowController.h,1,0,128154
+263771,10701432,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS.xcodeproj/project.pbxproj,1,0,128154
+263771,18349041,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Flow Controllers/Transaction Flows/LineItem Flows/DataAddFlowController.m,1,0,128154
+263771,18349044,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Contract/Elements/Tender/TenderLine.m,1,0,128154
+263771,12983905,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/AppManager/EPSClientHandler.m,1,0,128154
+263771,12983904,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/AppManager/EPSClientHandler.h,1,0,128154
+263771,15831469,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Factory/Process Factory/ProcessCoreFactory.m,1,0,128154
+263771,17622365,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Flow Controllers/Transaction Flows/LineItem Flows/AddLineItemFlowController.h,1,0,128154
+263771,12003625,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/AppManager/AppManager.m,1,0,128154
+263771,17622366,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Flow Controllers/Transaction Flows/LineItem Flows/AddLineItemFlowController.m,1,0,128154
+263771,10701594,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Contract/Elements/Transaction/CustomerOrderTransactionElement.h,1,0,128154
+263771,15815643,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Factory/FactoryCoreConstants.h,1,0,128154
+263771,17622423,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Contract/Elements/Tender/GiftCardTender.h,1,0,128154
+263771,17622424,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Contract/Elements/Tender/GiftCardTender.m,1,0,128154
+263771,16604576,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Processes/Flow Controllers/Tender Flows/TenderCardIdentifiedFlow.m,1,0,128154
+263771,10701622,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Contract/Elements/Transaction/PosLogElement.h,1,0,128154
+263771,10701623,03/06/2014,User Story,$/R10/Main/Trunk/Clients/MobilePOS/Src/RetalixPOS/RetalixPOS/Contract/Elements/Transaction/PosLogElement.m,1,0,128154
+321913,21828508,07/13/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Code/General/dbo.stp_DimCustomers.sql,1,0,180614
+321913,21828523,07/13/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/DB/Scripts/ReportingWarehouse/SqlServer/Code/General/dbo.stp_Fact_CustomerAccountBalance.sql,1,0,180614
+318667,19668924,07/06/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Tests/Retalix.Client.POS.Presentation.Views.Fuel.Test/Views/ForecourtViewShould.cs,1,0,180670
+314751,22682435,06/29/2014,Bug,$/Coles/Main/Trunk/POSClient/Src/Retalix.Coles.Client.POS.Presentation.ViewModels.Test/CashPaymentChangeViewModelShould.cs,1,0,180682
+314751,8696394,06/29/2014,Bug,$/Coles/Main/Trunk/POSClient/Src/Retalix.Client.Coles.POS.Presentation.ViewModels/CashPaymentChangeViewModel.cs,1,0,180682
+300122,17908149,05/29/2014,User Story,$/TargetDomestic/Main/Trunk/Config/RTI_Full_Install/1.Prerequisite/06_SystemParameters/005_SecurityScale.SystemParametersAdd,1,0,128275
+257235,1383691,02/20/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/DMS.Int.Test/DMS.Int.Test.csproj,1,0,128275
+257235,9369568,02/20/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/Retalix.StoreServer.DAL.UnitTest/Item/SecurityScaleDataMovableDaoShould.cs,1,0,128275
+257235,1288101,02/20/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Retalix.StoreServer.CoreConfiguration/CoreComponents/BusinessComponents.cs,1,0,128275
+257235,3307296,02/20/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/DMS.Int.Test/SecurityScaleDataColdStartShould.cs,1,0,128275
+257235,3306060,02/20/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/DAL.ConnectivityServices/Item/SecurityScaleDataDao.cs,1,0,128275
+257235,3307281,02/20/2014,User Story,$/R10/Main/Trunk/Servers/Store/App/Src/ServiceHost/Tests/DMS.Int.Test/SecurityScaleDataDmsIntShould.cs,1,0,128275
+318663,21796323,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Installation/Project/UserInterface/DatabaseChangeTDMRemoteDataFolderDialog.wxs,1,0,180579
+88393,1256595,09/03/2012,User Story,$/R10/Main/Trunk/Clients/ClientCommon/Src/Retalix.EPS.Model/EPSRefundResult.cs,1,0,128154
+319206,2768557,07/07/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.Presentation.Views.TouchLessPOS/MainDisplay_KeyboardPosViewNavigationRules.xml,1,0,180756
+319206,19747854,07/07/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Tests/Retalix.Client.POS.BusinessObjects.Test/StateNavigationRules/KeyboardPosStateNavigationRulesShould.cs,1,0,180756
+319206,2768551,07/07/2014,Bug,$/R10/Main/Trunk/Clients/POS/Src/Retalix.Client.POS.BusinessObjects/StateNavigationRules/KeyboardPosStateNavigationRules.xml,1,0,180756
+318657,21796315,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Installation/Project/Includes/ServerCustomActions.wxi,1,0,180579
+318657,21796325,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Installation/Project/UserInterface/DatabaseConfigrutaionDialogTDM.wxs,1,0,180579
+318657,21796322,07/06/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Servers/Store/App/Installation/Project/UserInterface/DatabaseChangeTDMDataFolderDialog.wxs,1,0,180579
+278052,13084600,04/08/2014,Bug,$/R10/Main/Trunk/Servers/Store/App/Src/BL.BusinessComponents/CDM/Merge/CustomerAccountsMergerStrategy.cs,1,0,180635
+319085,21722026,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Modules/Promotion/Web/Scripts/PromotionDetails/CriteriaBox/EntityConditionBoxPlugin.js,1,0,180765
+319085,21723588,07/07/2014,Bug,$/R10/Main/Release/5.x/5.1.x/Office/Src/Web/Scripts/retalix-jquery-helpers.js,1,0,180765

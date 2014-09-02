@@ -1,0 +1,21 @@
+INDEX VERSION 1.126+C:\TFS\QualityTools\.metadata\.plugins\org.eclipse.jdt.core
+3065916431.index
+1498219845.index
+1115467115.index
+4041092966.index
+305854171.index
+709589847.index
+1299022128.index
+3974580528.index
+1995173708.index
+1735411171.index
+2655095792.index
+3133528496.index
+2083723058.index
+163172794.index
+3952049907.index
+4155206848.index
+4108727661.index
+1697886153.index
+80845619.index
+30765161.index

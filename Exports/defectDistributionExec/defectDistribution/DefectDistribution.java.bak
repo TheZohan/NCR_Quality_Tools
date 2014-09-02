@@ -1,0 +1,171 @@
+package defectDistribution;
+
+import java.io.File;
+import java.io.IOException;
+
+import java.util.ArrayList;
+
+import com.microsoft.tfs.core.clients.versioncontrol.VersionControlClient;
+import com.microsoft.tfs.core.clients.versioncontrol.soapextensions.Change;
+import com.microsoft.tfs.core.clients.versioncontrol.soapextensions.Changeset;
+import com.microsoft.tfs.core.clients.workitem.WorkItem;
+import com.microsoft.tfs.core.clients.workitem.WorkItemClient;
+import com.microsoft.tfs.core.clients.workitem.link.ExternalLink;
+import com.microsoft.tfs.core.clients.workitem.link.Link;
+import com.microsoft.tfs.core.clients.workitem.query.WorkItemCollection;
+
+public class DefectDistribution {
+    private static final int MAX_LEVELS = 20;
+    private int finalNumberOfLevels = 0;
+	private File bugsQueryFile, outputFile; 
+	private WorkItemCollection bugWorkItems=null;
+	private WorkItemClient workItemClient;
+	private VersionControlClient versionControlClient;
+	private long changeCounter = 0;
+	AppWindow appWinRef;
+	
+    @SuppressWarnings("unchecked")
+	private SortableHashMap<String, Integer> swDomain[] = new SortableHashMap [MAX_LEVELS];            // Each level of depth into the changeset  file structure will get its own map
+	@SuppressWarnings("unchecked")
+	private ArrayList <HashPairs<String, Integer>> swDomainMap[] = new ArrayList[MAX_LEVELS];
+    @SuppressWarnings("unchecked")
+	private ArrayList<String> softwareDomains[] = new ArrayList[MAX_LEVELS];
+    @SuppressWarnings("unchecked")
+	private ArrayList<Number> softwareDomainCounts[] = new ArrayList[MAX_LEVELS];
+    private ExcelAccess excelAccess = new ExcelAccess();
+		 
+	
+	public DefectDistribution(AppWindow appWin) {
+		 appWinRef = appWin;
+		 for (int i = 0; i < MAX_LEVELS; i++) {
+			 swDomainMap[i] = new ArrayList <HashPairs<String, Integer>>();
+			 swDomain[i] = new SortableHashMap<String, Integer>();
+			 softwareDomains[i] = new ArrayList <String>();
+			 softwareDomainCounts[i] = new ArrayList <Number>();
+		 }
+	}
+	
+	public void defectDistributionSetup (File QueryFile, File outFile){
+		 bugsQueryFile = QueryFile;
+		 outputFile = outFile;
+	}
+
+	public void runAnalysis() throws  IOException {
+		 excelAccess.openFiles(outputFile);
+		 TFSAccess tmp = new TFSAccess(bugsQueryFile);
+		 bugWorkItems = tmp.getWorkItemCollection();
+		 workItemClient = tmp.getWorkItemClient();
+		 versionControlClient = tmp.getVersionControlClient();
+		 Integer wid;
+		 int querySize =  bugWorkItems.size();
+		 WorkItem workItem;
+		 int tmpCounter = 0;
+		 for (int i = 0; i < querySize; i++) {
+			 wid = bugWorkItems.getWorkItem(i).getID();
+			 workItem = workItemClient.getWorkItemByID(wid);
+		     getChangeSets(workItem, wid);
+		     if (++tmpCounter % 100 == 0)  appWinRef.progressBarCallBack("Identified "+changeCounter+" changesets from "+tmpCounter+"/"+querySize+" bugs");
+		 }
+         createSortedMapArrays();
+         createSoftwareDomainVectors();
+         writeOutputToExcel();
+         excelAccess.closeAll();
+	}
+	
+	private void getChangeSets(WorkItem workItem, Integer wid)
+    {
+        for (Link link : workItem.getLinks())
+        {
+            String linkType = link.getLinkType().getName();
+
+            if (link instanceof ExternalLink && linkType.equalsIgnoreCase("Fixed in Changeset"))
+            {
+                ExternalLink externalLink = (ExternalLink) link;   
+                Changeset changeset = versionControlClient.getChangeset(Integer.parseInt(getChangesetID(externalLink.getURI())));
+                Change changes[] = changeset.getChanges();
+                for (Change changeItem : changes) {
+                  String changeName = changeItem.getItem().getServerItem();
+                  populateDomainMaps (changeName);
+                  changeCounter++;
+                }
+            }
+        }
+    }
+	
+	private String getChangesetID(String changeSetIdPath) {
+		String tokens[] = changeSetIdPath.split("[/]");
+		return tokens[tokens.length -1];
+	}
+	
+	private void populateDomainMaps (String changedItem) {
+		String tokens[] = changedItem.split("[/]");
+		String concat = new String();
+		int numberOfLevels = tokens.length;
+		if (numberOfLevels > finalNumberOfLevels) finalNumberOfLevels = numberOfLevels;
+		for (int i=0; i < numberOfLevels; i++) {  
+			concat += ("/"+tokens[i]);
+			swDomain[i].put(concat, 1);	  // each level has to contain the full path up to that level 
+		}		
+	}
+	
+	private void createSortedMapArrays() {
+		SortableHashMap<String, Integer> tmpSwDomain;
+		for (int i=0; i < MAX_LEVELS; i++) {
+			tmpSwDomain = swDomain[i];
+			swDomainMap[i] = tmpSwDomain.sortMapArray(tmpSwDomain);
+		}
+	}
+	
+	private void createSoftwareDomainVectors() {
+		for (int i = 0; i < MAX_LEVELS; i++) {
+			for (HashPairs<String, Integer> hp : swDomainMap[i]) {
+				softwareDomains[i].add(hp.getPairkey());
+				softwareDomainCounts[i].add(hp.getPairValue());
+			}
+		}
+	}
+	
+	private void writeOutputToExcel() {
+		for (int i=0; i < finalNumberOfLevels; i++) { 
+			excelAccess.createSheet("Level "+i, i);
+			excelAccess.addLabel (0, "Software Path", 1, i);
+			excelAccess.addLabel (1, "Number of changes", 1, i);
+		    addStringVectorToFile (excelAccess, 0, softwareDomains[i],0,i);
+		    addVectorToFile (excelAccess, 1, softwareDomainCounts[i], 0, i);
+		}		
+	}
+	
+   private void addVectorToFile (ExcelAccess excelAccess, int col, ArrayList<Number> bugArray, int start, int sheetIndex ) {
+
+		int bugArrayIndex=0, row = 2+start;
+		int limit = bugArray.size();
+		jxl.write.Number value = new jxl.write.Number (0,0,0);
+		
+		while (bugArrayIndex < limit) {
+			value.setValue(bugArray.get(bugArrayIndex).floatValue());
+			excelAccess.writeNumberCell (col, row, value, sheetIndex);
+		    bugArrayIndex++;
+   	    row++;
+		  }
+   }
+	   
+   private void addStringVectorToFile (ExcelAccess excelAccess, int col, ArrayList<String> strArray, int start, int sheetIndex ) {
+
+		int arrayIndex=0, row = 2+start;
+		int limit = strArray.size();
+		String str = new String();
+		
+		while (arrayIndex < limit) {
+			str = strArray.get(arrayIndex);
+			if (str == null) {
+				str = " ";
+			}
+			excelAccess.addLabel (col, str, row, sheetIndex);
+		    arrayIndex++;
+   	    row++;
+		  }
+   }
+
+
+}
+
