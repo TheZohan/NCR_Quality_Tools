@@ -31,10 +31,15 @@ public class BugChangeSetReport implements TFSReportsGenerator {
 	 TFSProgressCallBack callBack;
 	 int querySize, processedItems, coreBugs, NABs, NRs, notFixed;
 	 int bugsWithChangesets = 0;
+	 int maxRecursionDepth = 0;
 	 TFSAccess tfsAccess=null;	 
      private ExcelServices excelAccess = new ExcelServices();
-		
- 	public void ReportGenerator (File query, File coreQuery, File userStoryQuery, File output, TFSProgressCallBack callback) {
+  	
+     public void setMaxRecursion (int maxDepth) {
+ 		maxRecursionDepth = maxDepth;
+ 	}
+     
+    public void ReportGenerator (File query, File coreQuery, File userStoryQuery, File output, TFSProgressCallBack callback) {
 		callBack = callback;
 		   queryFile = query;
 		   coreBugQueryFile = coreQuery;
@@ -84,7 +89,7 @@ public class BugChangeSetReport implements TFSReportsGenerator {
 		 ChangeSetClient csClient = new ChangeSetClient();
 		 
 		 csClient.setWorkItemClient(workItemClient);
-		 csClient.setMaxRecursion(2);			// only the bug itself is inspected, not its links
+		 csClient.setMaxRecursion(maxRecursionDepth);			
 		 
 		 for (int index = 0; index < querySize; index++) {			
 			 workItem = workItemCollection.getWorkItem(index);
