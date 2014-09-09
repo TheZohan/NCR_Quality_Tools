@@ -238,4 +238,10 @@ public class MergeChangeSetReportGenerator implements TFSReportsGenerator{
 		 callBack = null;
 	}
 
+	@Override
+	public void setMaxRecursion(int maxDepth) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
