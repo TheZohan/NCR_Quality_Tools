@@ -11,12 +11,16 @@ import com.microsoft.tfs.core.clients.workitem.link.RelatedLink;
 public class ChangeSetClient {
 	private WorkItemClient workItemClient;
 	private static int MAX_RECURSION_DEPTH = 3;
+	private int maxRecursionDepth = MAX_RECURSION_DEPTH;
 	private int recursionDepth;
 	private int workItemID;
     private HashSet<Integer> relatedWorkItemLinks = new HashSet<Integer>();
  
     private boolean isCustomerDefect;
 
+    public void setMaxRecursion(int depth) {
+    	maxRecursionDepth = depth;
+    }
     public void setRecursion() {
     	recursionDepth = 0;
     }
@@ -48,7 +52,7 @@ public class ChangeSetClient {
         		 return false;
         	 }
          }
-         if (recursionDepth > MAX_RECURSION_DEPTH) {
+         if (recursionDepth > maxRecursionDepth) {
          	   recursionDepth--;
          	   return false;
           }
@@ -62,8 +66,10 @@ public class ChangeSetClient {
 	            	retVal = true;
 	            	break;
 	            }
+	            
+	            if (maxRecursionDepth == 0) continue;
          	
-	            else if (link instanceof RelatedLink && recursionDepth <= MAX_RECURSION_DEPTH-1) {
+	            else if (link instanceof RelatedLink && recursionDepth <= maxRecursionDepth-1) {
 	            	RelatedLink rLink = (RelatedLink) link;
 	            	int linkID = rLink.getTargetWorkItemID();
 	             	if (!relatedWorkItemLinks.contains(linkID)){
