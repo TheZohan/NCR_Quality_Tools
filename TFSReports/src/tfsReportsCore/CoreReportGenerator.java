@@ -48,6 +48,14 @@ public class CoreReportGenerator extends ProjectsReportGenerator implements TFSR
     private ArrayList<Number> escapingDefectsPct = new ArrayList <Number>();
     private ArrayList<Number> NABPercentage = new ArrayList <Number>();
     private ArrayList<Number> NRPercentage = new ArrayList <Number>();
+    private ArrayList<Number> CriticalOpenPercentage = new ArrayList <Number>();
+    private ArrayList<Number> MajorOpenPercentage = new ArrayList <Number>();
+    private ArrayList<Number> MinorOpenPercentage = new ArrayList <Number>();
+    private ArrayList<Number> ModerateOpenPercentage = new ArrayList <Number>();
+    private ArrayList<Number> CriticalFixedPercentage = new ArrayList <Number>();
+    private ArrayList<Number> MajorFixedPercentage = new ArrayList <Number>();
+    private ArrayList<Number> MinorFixedPercentage = new ArrayList <Number>();
+    private ArrayList<Number> ModerateFixedPercentage = new ArrayList <Number>();
     
     
     private HashMap<Integer, Number> escapingBugs = new HashMap<Integer, Number>();
@@ -90,6 +98,7 @@ public class CoreReportGenerator extends ProjectsReportGenerator implements TFSR
 		   excelAccess.createSheet("Defect Density & Regressions", 1);
 		   excelAccess.createSheet("Defect Aging", 2);
 		   excelAccess.createSheet("NAB & NR", 3);
+		   excelAccess.createSheet("Trends by severity", 4);
 		   callBack.progressCallBack("CONNECTING TO TFS....");
 		   TFSAccess tmp = new TFSAccess(allBugsQueryFile, escapingBugsQueryFile, userStoryQueryFile, callBack);
 		   bugItemList = tmp.getBugDataList();
@@ -155,6 +164,7 @@ public class CoreReportGenerator extends ProjectsReportGenerator implements TFSR
     	createEscapingPctArray (cumulativeEscapingBugs, cumulativeFilteredBugs, escapingDefectsPct);
 	 	createPctArray (cumulativeNABs, cumulativeCoreBugs, NABPercentage);
 	 	createPctArray (cumulativeNRBugs, cumulativeCoreBugs, NRPercentage);
+	 	createSeverityPctArrays();
 	 	
 	 	if (openBugs.size() != 0) createOpenBugHistogram(openBugs, openHistogram);
 	    if (cumulativeCoreRegressions.size() != 0) createRegressionsTrend(cumulativeCoreRegressions, cumulativeFilteredBugs, regressionsCorePercentage);
@@ -296,7 +306,66 @@ public class CoreReportGenerator extends ProjectsReportGenerator implements TFSR
 			i++;
 		}
 	}
-       	private void addVectorsToFile() {
+	
+	private void createFixedMap (HashMap <Integer, Number> map1, HashMap <Integer, Number> map2 ,HashMap <Integer, Number> map3, HashMap <Integer, Number> map4, HashMap <Integer, Number> mapTotal) {
+		int value;
+		ArrayList <HashMap<Integer, Number>> mapArray = new ArrayList <HashMap<Integer, Number>>();
+		mapArray.add(map1);
+		mapArray.add(map2);
+		mapArray.add(map3);
+		mapArray.add(map4);
+		int limit = Math.max(map1.size(), Math.max(map2.size(), Math.max(map3.size(), map4.size())));
+		
+		for (int i=0; i < limit; i++) {
+			for (HashMap <Integer, Number> map : mapArray){
+				if (map.get(i) == null) map.put(i,  0);
+			}
+		}
+		
+		for (int i=0; i < limit; i++) {
+			Number num1;
+			value = (int) (map1.get(i).floatValue() + map2.get(i).floatValue() + map3.get(i).floatValue() + map4.get(i).floatValue());
+			num1 = value;
+			mapTotal.put (i, num1);
+		}
+
+	}
+	private void createSeverityPctArrays() {
+		ArrayList<Number> cumulativeBySeverityArray = new ArrayList<Number>();
+		ArrayList<Number> cumulativeFixed = new ArrayList<Number>();
+		HashMap <Integer, Number> allFixedBugs = new HashMap <Integer, Number>();
+				
+		createCumulativeVector (coreBugsCritical, cumulativeBySeverityArray);
+		createPctArray (cumulativeBySeverityArray, cumulativeCoreBugs, CriticalOpenPercentage);
+		
+		createCumulativeVector (coreBugsMajor, cumulativeBySeverityArray);
+		createPctArray (cumulativeBySeverityArray, cumulativeCoreBugs, MajorOpenPercentage);
+		
+		createCumulativeVector (coreBugsMinor, cumulativeBySeverityArray);
+		createPctArray (cumulativeBySeverityArray, cumulativeCoreBugs, MinorOpenPercentage);
+		
+		createCumulativeVector (coreBugsModerate, cumulativeBySeverityArray);
+		createPctArray (cumulativeBySeverityArray, cumulativeCoreBugs, ModerateOpenPercentage);
+
+		// Need to create a HashMap of all fixed bugs and a cumulative array of fixed bugs of all severities
+		createFixedMap (fixedcoreBugsCritical, fixedcoreBugsMajor, fixedcoreBugsMinor, fixedcoreBugsModerate, allFixedBugs);
+		validateSingleMap (allFixedBugs);
+        createCumulativeVector (allFixedBugs, cumulativeFixed);
+		
+		createCumulativeVector (fixedcoreBugsCritical, cumulativeBySeverityArray);
+		createPctArray (cumulativeBySeverityArray, cumulativeFixed, CriticalFixedPercentage);
+		
+		createCumulativeVector (fixedcoreBugsMajor, cumulativeBySeverityArray);
+		createPctArray (cumulativeBySeverityArray, cumulativeFixed, MajorFixedPercentage);
+		
+		createCumulativeVector (fixedcoreBugsMinor, cumulativeBySeverityArray);
+		createPctArray (cumulativeBySeverityArray, cumulativeFixed, MinorFixedPercentage);
+		
+		createCumulativeVector (fixedcoreBugsModerate, cumulativeBySeverityArray);
+		createPctArray (cumulativeBySeverityArray, cumulativeFixed, ModerateFixedPercentage);
+	}
+    
+	private void addVectorsToFile() {
 		 
 		   addLabels();
 		   addWeekColumn();
@@ -310,6 +379,16 @@ public class CoreReportGenerator extends ProjectsReportGenerator implements TFSR
 		   if (escapingDefectsPct.size() != 0) addVectorToFile (excelAccess, 6, escapingDefectsPct, 0, 1);
 		   if (NABPercentage.size() != 0) addVectorToFile (excelAccess, 1, NABPercentage, 0, 3);
 		   if (NRPercentage.size() != 0) addVectorToFile (excelAccess, 2, NRPercentage, 0, 3);
+		   
+		   if (CriticalOpenPercentage.size() != 0) addVectorToFile (excelAccess, 1, CriticalOpenPercentage, 0, 4);
+		   if (MajorOpenPercentage.size() != 0) addVectorToFile (excelAccess, 2, MajorOpenPercentage, 0, 4);
+		   if (MinorOpenPercentage.size() != 0) addVectorToFile (excelAccess, 3, MinorOpenPercentage, 0, 4);
+		   if (ModerateOpenPercentage.size() != 0) addVectorToFile (excelAccess, 4, ModerateOpenPercentage, 0, 4);
+		   
+		   if (CriticalFixedPercentage.size() != 0) addVectorToFile (excelAccess, 5, CriticalFixedPercentage, 0, 4);
+		   if (MajorFixedPercentage.size() != 0) addVectorToFile (excelAccess, 6, MajorFixedPercentage, 0, 4);
+		   if (MinorFixedPercentage.size() != 0) addVectorToFile (excelAccess, 7, MinorFixedPercentage, 0, 4);
+		   if (ModerateFixedPercentage.size() != 0) addVectorToFile (excelAccess, 8, ModerateFixedPercentage, 0, 4);
 
 		   jxl.write.Number value = new jxl.write.Number (0,0,medianAge);
 		   excelAccess.writeNumberCell (4, 10, value,2);
@@ -328,12 +407,22 @@ public class CoreReportGenerator extends ProjectsReportGenerator implements TFSR
 		 excelAccess.addLabel (6, "Escaping Defects", 1, 1);
 		 excelAccess.addLabel (1, "Not a Bug %", 1, 3);
 		 excelAccess.addLabel (2, "Not Reproduced %", 1, 3);
+		 
+		 excelAccess.addLabel(1, "Pct Critical Opened", 1, 4);
+		 excelAccess.addLabel(2, "Pct Major Opened", 1, 4);
+		 excelAccess.addLabel(3, "Pct Minor Opened", 1, 4);
+		 excelAccess.addLabel(4, "Pct Moderate Opened", 1, 4);
+		 excelAccess.addLabel(5, "Pct Critical Closed", 1, 4);
+		 excelAccess.addLabel(6, "Pct Major Closed", 1, 4);
+		 excelAccess.addLabel(7, "Pct Minor Closed", 1, 4);
+		 excelAccess.addLabel(8, "Pct Moderate Closed", 1, 4);
 	}
 
 	private void addWeekColumn() {
 		excelAccess.addLabel (0, "Week starting", 1, 0);
 		excelAccess.addLabel (0, "Week starting", 1, 1);
 		excelAccess.addLabel (0, "Week starting", 1, 3);
+		excelAccess.addLabel (0, "Week starting", 1, 4);
 		excelAccess.addLabel(0, "Age in weeks", 1, 2);
 		int weekArrayIndex=1, row = 2;
 		int limit = coreBugs.size();
@@ -346,6 +435,7 @@ public class CoreReportGenerator extends ProjectsReportGenerator implements TFSR
 			excelAccess.writeDateCell (0, row, date, 0);
 			excelAccess.writeDateCell (0, row, date, 1);
 			excelAccess.writeDateCell (0, row, date, 3);
+			excelAccess.writeDateCell (0, row, date, 4);
 			excelAccess.writeNumberCell(0, row, num, 2);
  	        row++;
  	        time = globalBaseTime + weekArrayIndex * weekDelta;

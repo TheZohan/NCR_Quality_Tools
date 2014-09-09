@@ -84,6 +84,7 @@ public class BugChangeSetReport implements TFSReportsGenerator {
 		 ChangeSetClient csClient = new ChangeSetClient();
 		 
 		 csClient.setWorkItemClient(workItemClient);
+		 csClient.setMaxRecursion(2);			// only the bug itself is inspected, not its links
 		 
 		 for (int index = 0; index < querySize; index++) {			
 			 workItem = workItemCollection.getWorkItem(index);
@@ -114,7 +115,7 @@ public class BugChangeSetReport implements TFSReportsGenerator {
 				 coreBugs++;
 				 continue; // filter out core links if they exist and if such a query was requested
 			 }
-			 if (!isFixed (state)) {
+			 if (isOpen (state)) {
 				 processedItems--;
 				 notFixed++;
 				 continue; // filter out defects that are sure not to have change sets				 
@@ -167,7 +168,13 @@ public class BugChangeSetReport implements TFSReportsGenerator {
 	  
 	    	return retval;
 	    }
-
+	    protected final boolean isOpen(String state) {
+	    	boolean retval = false;
+	    	if (state == null) state = "NA"; 
+	        if (state.equalsIgnoreCase("Open") || state.equalsIgnoreCase("In Progress")) retval = true;
+	  
+	    	return retval;
+	    }
 	
 	private final void addHeaderToFile(){
 		 String msg = new String();
@@ -175,17 +182,17 @@ public class BugChangeSetReport implements TFSReportsGenerator {
 		 excelAccess.addLabel (0, msg, 0, 0);
 		 msg = "Processed a total of "+querySize+" bugs";
 		 excelAccess.addLabel (0, msg, 1, 0);
-		 msg = "There were " +processedItems+" bugs analyzed after filter (Core/NAB/NR/Open/In Progress)";
+		 msg = "There were " +processedItems+" bugs analyzed after filter (Core/NAB/NR/Open/In Progress) - "+((float)processedItems/(float)querySize*100)+"%";
 		 excelAccess.addLabel (0, msg, 2, 0);
-		 msg = "There were: " +NABs+" Not A Bug defects";
+		 msg = "There were: " +NABs+" Not A Bug defects - "+((float)NABs/(float)querySize*100)+"%";
 		 excelAccess.addLabel (0, msg, 3, 0);
-		 msg = "There were: " +NRs+" Not Reproduced defects";
+		 msg = "There were: " +NRs+" Not Reproduced defects - "+((float)NRs/(float)querySize*100)+"%";
 		 excelAccess.addLabel (0, msg, 4, 0);
-		 msg = "There were: " +coreBugs+" Bugs associated to Core";
+		 msg = "There were: " +coreBugs+" Bugs associated to Core - "+((float)coreBugs/(float)querySize*100)+"%";
 		 excelAccess.addLabel (0, msg, 5, 0);	
 		 msg = "There were: " +notFixed+" Bugs in either Open or In progress states";
 		 excelAccess.addLabel (0, msg, 6, 0);	
-		 msg = "There were: " +bugsWithChangesets+" bugs with changesets";
+		 msg = "There were: " +bugsWithChangesets+" bugs with changesets - "+((float)bugsWithChangesets/(float) processedItems*100)+"%";
 		 excelAccess.addLabel (0, msg, 7, 0);
 		 msg = "There were: "+(processedItems-bugsWithChangesets)+" bugs without changesets";
 		 excelAccess.addLabel (0, msg, 8, 0);

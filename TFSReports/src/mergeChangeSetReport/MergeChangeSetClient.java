@@ -6,6 +6,7 @@ import java.util.Date;
 import tfsAccess.WorkItemFilesRecord;
 
 import com.microsoft.tfs.core.clients.versioncontrol.VersionControlClient;
+import com.microsoft.tfs.core.clients.versioncontrol.exceptions.ResourceAccessException;
 import com.microsoft.tfs.core.clients.versioncontrol.soapextensions.Change;
 import com.microsoft.tfs.core.clients.versioncontrol.soapextensions.Changeset;
 import com.microsoft.tfs.core.clients.workitem.WorkItem;
@@ -47,7 +48,12 @@ public class MergeChangeSetClient {
 		 Integer csID;
 		 for (ExternalLink link: externalLinks){
 			  	csID = Integer.parseInt(getChangesetID(link.getURI()));
-			  	Changeset changeset = versionControlClient.getChangeset(csID);
+			  	Changeset changeset;
+			  	try {
+			  		  changeset = versionControlClient.getChangeset(csID);  // occasional changeset read access denials in TFS.need to ignore  
+				  	} catch (ResourceAccessException e) {
+				  		continue;
+				  	}
 			  	Date date = changeset.getDate().getTime();
 			  	record.setRecordDate(date);
 			  	Change changes[] = changeset.getChanges();			  	
