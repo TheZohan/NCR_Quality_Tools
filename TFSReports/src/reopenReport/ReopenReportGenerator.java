@@ -11,6 +11,7 @@ import tfsAccess.TFSProgressCallBack;
 import tfsReports.TFSReportsGenerator;
 
 import com.microsoft.tfs.core.clients.versioncontrol.VersionControlClient;
+import com.microsoft.tfs.core.clients.versioncontrol.exceptions.ResourceAccessException;
 import com.microsoft.tfs.core.clients.versioncontrol.soapextensions.Changeset;
 import com.microsoft.tfs.core.clients.workitem.WorkItem;
 import com.microsoft.tfs.core.clients.workitem.WorkItemClient;
@@ -38,7 +39,6 @@ public class ReopenReportGenerator implements TFSReportsGenerator{
 	WorkItemLinkInfo[] linkItems=null;
     private ArrayList<Integer> defectIDsWithoutChangesets = new ArrayList <Integer>();
     private TFSProgressCallBack callBack;
-	//ReopenReportApp appWinRef;
 	int querySize, remainingBugs;
 	 int hitCount = 0;
 	 int bugCount = 0;
@@ -156,8 +156,13 @@ public class ReopenReportGenerator implements TFSReportsGenerator{
    				            		bugsWithChangesetsCount++;
    				            		hasChangeset = true;
    				            	}
-   				                ExternalLink externalLink = (ExternalLink) link;	            
-   				                Changeset changeset = versionControlClient.getChangeset(Integer.parseInt(getChangesetID(externalLink.getURI())));
+   				                ExternalLink externalLink = (ExternalLink) link;	
+   				                Changeset changeset;
+   				                try {
+   	  				                changeset = versionControlClient.getChangeset(Integer.parseInt(getChangesetID(externalLink.getURI())));
+   						  	    } catch (ResourceAccessException e) {
+   						  		   continue;
+   						  	    }
    				                Date date2 = changeset.getDate().getTime();
    				                if (date2.getTime() > date1.getTime()){
  		    					   if (isBingo == false) {
