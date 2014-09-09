@@ -184,6 +184,12 @@ public class CoreLinksReport implements TFSReportsGenerator {
   
     	return retval;
     }
+
+	@Override
+	public void setMaxRecursion(int maxDepth) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
 
