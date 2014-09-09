@@ -11,6 +11,8 @@ import javax.swing.Timer;
 
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.GridLayout;
@@ -31,6 +33,7 @@ import tfsReports.ReportThread;
 import tfsReports.TFSReportsGenerator;
 
 import java.awt.Component;
+import javax.swing.JRadioButton;
 
 public class BugChangeSetApp implements TFSProgressCallBack{
 
@@ -43,6 +46,7 @@ public class BugChangeSetApp implements TFSProgressCallBack{
 	private TFSProgressCallBack callBack = this;
 	private static String textToDisplay = new String(" ");
 	private static JTextArea progressBar;
+	private int maxRecursionDepth = 3;  //default value is 3; Changeset client will follow links
 
 
 	/**
@@ -253,6 +257,15 @@ public class BugChangeSetApp implements TFSProgressCallBack{
 		JPanel panel_5 = new JPanel();
 		frmBugReport.getContentPane().add(panel_5);
 		
+		JRadioButton rdbtnDoNotFollow = new JRadioButton("Do not follow Links");
+		panel_5.add(rdbtnDoNotFollow);
+		rdbtnDoNotFollow.addItemListener(new ItemListener() {
+	         public void itemStateChanged(ItemEvent e) {         
+	        	 if (e.getStateChange()==1)  maxRecursionDepth = 0;
+	        	 else maxRecursionDepth = 3;
+	         }    
+	      });
+		
 		JButton btnProcess = new JButton("Run report");
 		btnProcess.setBackground(Color.GREEN);
 		panel_5.add(btnProcess);
@@ -283,6 +296,7 @@ public class BugChangeSetApp implements TFSProgressCallBack{
 				try {
 				  if (queryFile != null && outputFile != null){
 					  ReportThread reportThread = new ReportThread ("Report Thread", queryFile, coreBugQueryFile, null,  outputFile, callBack, rGen);
+					  rGen.setMaxRecursion (maxRecursionDepth);
 					  reportThread.start();
 				  }
 				  	else JOptionPane.showMessageDialog(null, "Mandatory file missing (Work Item query or output file)");
