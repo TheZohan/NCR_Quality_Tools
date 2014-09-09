@@ -272,5 +272,11 @@ public class ReopenReportGenerator implements TFSReportsGenerator{
 			 
 			 return retVal;
 		 }
+
+		@Override
+		public void setMaxRecursion(int maxDepth) {
+			// TODO Auto-generated method stub
+			
+		}
 		 
 }
