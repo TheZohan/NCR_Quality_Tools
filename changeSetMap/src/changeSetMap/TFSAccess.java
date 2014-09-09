@@ -15,7 +15,6 @@ import com.microsoft.tfs.core.clients.workitem.query.WorkItemCollection;
 import com.microsoft.tfs.core.clients.workitem.query.WorkItemLinkInfo;
 import com.microsoft.tfs.core.exceptions.TECoreException;
 
-
 public class TFSAccess {
     Project project;
 	WorkItemClient workItemClient;
