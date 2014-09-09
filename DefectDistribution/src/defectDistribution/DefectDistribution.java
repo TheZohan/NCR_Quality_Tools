@@ -12,6 +12,7 @@ import javax.swing.JOptionPane;
 import tfsAccess.TFSException;
 
 import com.microsoft.tfs.core.clients.versioncontrol.VersionControlClient;
+import com.microsoft.tfs.core.clients.versioncontrol.exceptions.ResourceAccessException;
 import com.microsoft.tfs.core.clients.versioncontrol.soapextensions.Change;
 import com.microsoft.tfs.core.clients.versioncontrol.soapextensions.Changeset;
 import com.microsoft.tfs.core.clients.workitem.WorkItem;
@@ -19,6 +20,9 @@ import com.microsoft.tfs.core.clients.workitem.WorkItemClient;
 import com.microsoft.tfs.core.clients.workitem.link.ExternalLink;
 import com.microsoft.tfs.core.clients.workitem.link.Link;
 import com.microsoft.tfs.core.clients.workitem.query.WorkItemCollection;
+import com.microsoft.tfs.core.exceptions.TECoreException;
+import com.microsoft.tfs.core.exceptions.TFSAccessException;
+import com.microsoft.tfs.core.exceptions.TFSUnauthorizedException;
 
 import excelServices.ExcelServices;
 import tfsAccess.TFSAccess;
@@ -123,13 +127,17 @@ public class DefectDistribution {
                 ExternalLink externalLink = (ExternalLink) link;   
                 String title = workItem.getTitle();
                 bugTitles.put(wid,  title);
-                Changeset changeset = versionControlClient.getChangeset(Integer.parseInt(getChangesetID(externalLink.getURI())));
-                Change changes[] = changeset.getChanges();
-                for (Change changeItem : changes) {
-                  String changeName = changeItem.getItem().getServerItem();
-                  populateDomainMaps (changeName, wid);
+                try {
+                  Changeset changeset = versionControlClient.getChangeset(Integer.parseInt(getChangesetID(externalLink.getURI())));
+                  Change changes[] = changeset.getChanges();
+                  for (Change changeItem : changes) {
+                     String changeName = changeItem.getItem().getServerItem().toLowerCase();
+                    populateDomainMaps (changeName, wid);
+                  }
+                  changeCounter++;
+                } catch (TECoreException te){
+                	if (te instanceof TFSUnauthorizedException || te instanceof TFSAccessException || te instanceof ResourceAccessException) break;
                 }
-                changeCounter++;
             }
         }
     }
