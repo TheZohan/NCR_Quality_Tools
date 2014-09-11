@@ -367,7 +367,7 @@ public class ProjectsReportGenerator implements TFSReportsGenerator {
     protected void addMapElement (HashMap<Integer, Number> map, Integer key, Number sizeVal)
     {
         if (map != null){
-        	if ( map.get(key) == null) map.put(key, 1);
+        	if ( map.get(key) == null) map.put(key, sizeVal);
 			else map.put(key, map.get(key).floatValue()+sizeVal.floatValue());
     	}
     }
@@ -674,5 +674,11 @@ public class ProjectsReportGenerator implements TFSReportsGenerator {
     		}
     	}
     }
+
+	@Override
+	public void setMaxRecursion(int maxDepth) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
